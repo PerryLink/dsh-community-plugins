@@ -684,6 +684,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-icd-rule-check",
+    "name": "ICD 编码规则核对",
+    "nameEn": "ICD Rule Check",
+    "author": "PerryLink",
+    "description": "面向病案编码员的纯本地 ICD 编码核对：依据 GB/T 14396-2016 与公开的 ICD 使用说明，逐份核对 ICD-10 诊断编码与 ICD-9-CM-3 手术操作编码的形态、重复、剑号/星号组合与字段完整性，输出「哪一行、哪一栏、差什么」的清单——只提示需要编码员关注的配对，不代为判定，编码结论仍由编码员作出。",
+    "descriptionEn": "Local-only ICD coding check for medical-record coders: following GB/T 14396-2016 and published ICD usage notes, check each coded episode's ICD-10 diagnosis and ICD-9-CM-3 procedure codes for form, duplicates, dagger-and-asterisk combinations and field completeness, and report a row-by-row, column-by-column difference list — it flags the pairs a coder should review, does not resolve them, and the coding decision stays with the coder.",
+    "repo": "https://github.com/PerryLink/dsh-icd-rule-check",
+    "npm": "dsh-icd-rule-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-imagegen",
     "name": "AI 生图",
     "nameEn": "AI ImageGen",
