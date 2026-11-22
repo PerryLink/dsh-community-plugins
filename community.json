@@ -1537,6 +1537,18 @@
     "subcategory": "render"
   },
   {
+    "id": "dsh-warranty-calc",
+    "name": "质保期与索赔金额核对",
+    "nameEn": "Warranty Claim Check",
+    "author": "PerryLink",
+    "description": "面向合同管理与质保结算的纯本地质保期与索赔金额核对：依据《家用汽车产品修理更换退货责任规定》（市场监管总局令第43号），读取一份质保索赔台账，逐条核对质保期月数与里程是否在限值内、销售日期与索赔日期是否可解析且先后成立、索赔金额算式是否自洽、台账写明的截止日期是否已过，输出「哪一行、哪一栏、差什么」的清单与修法——不判断索赔是否应当受理、故障是否属于质保范围；只提示差异，不作出定性结论，原件只读。",
+    "descriptionEn": "Local-only warranty period and claim-amount check for contract management and warranty settlement: following the PRC domestic-vehicle repair/replacement/return regulation (SAMR Order No. 43), read one warranty claim register and verify claim by claim that the warranty month count and mileage stay within limits, that sale and claim dates parse and follow one another, that claim amounts are arithmetically consistent and that any stated deadline has not passed — returning which row, which column and what differs, with the fix; it does not decide whether a claim should be accepted or whether a failure is covered — differences only, no verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-warranty-calc",
+    "npm": "dsh-warranty-calc",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-web-start-ui",
     "name": "dsh web start ui · 启动动画",
     "nameEn": "dsh web start ui (Launch Video)",
