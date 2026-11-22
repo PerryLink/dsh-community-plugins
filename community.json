@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-retraction-watch",
+    "name": "撤稿与更正监测",
+    "nameEn": "Retraction Monitor",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的撤稿与更正监测：读取 Crossref 作品记录并用 filter=updates 查询，为每个 DOI 给出 retracted/concern/corrected/notice/clear/unknown 状态，维护带变更检测的只追加时间线，输出 REP v1 证据快照与 SARIF；clear 只表示未登记通告，不代表论文有效。",
+    "descriptionEn": "Retraction and correction monitoring for DeepSeek Harness: reads Crossref work records plus the verified filter=updates query, assigns each DOI a retracted/concern/corrected/notice/clear/unknown status, keeps an append-only timeline with change detection, and emits REP v1 evidence snapshots and SARIF; clear means no registered notice, never proof of validity.",
+    "repo": "https://github.com/PerryLink/dsh-retraction-watch",
+    "npm": "dsh-retraction-watch",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
