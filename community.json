@@ -732,6 +732,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-laya",
+    "name": "Laya 决策",
+    "nameEn": "Laya Decisions",
+    "author": "PerryLink",
+    "description": "把 Laya 的有类型决策（noul 是/否、choice、score）接成一等 Cordis 服务 ctx.laya 与两个模型可见工具 laya_ask、laya_plan：只回标签、标定概率与刻度位置，state 不出本机。插件不安装也不下载任何东西，是自启 laya-mcp serve 边车的客户端，边车未运行会明确报出。",
+    "descriptionEn": "Laya typed decisions (noul yes/no, choice, score) as a first-class Cordis service ctx.laya plus the model-visible laya_ask and laya_plan tools that return labels, calibrated probabilities and scale positions instead of prose, with state kept on this machine. The plugin installs and downloads nothing: it is a client of a laya-mcp serve sidecar you start yourself and reports when the sidecar is not running.",
+    "repo": "https://github.com/PerryLink/dsh-laya",
+    "npm": "dsh-laya",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-library",
     "name": "本地文档知识库",
     "nameEn": "Local Document Library",
