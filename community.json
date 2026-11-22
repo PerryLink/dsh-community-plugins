@@ -331,6 +331,17 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-canteen-retention-check",
+    "name": "食堂留样台账核对",
+    "nameEn": "Canteen Retention Check",
+    "author": "PerryLink",
+    "description": "读取一份食堂留样台账（表头加每行一条留样记录），核对品名、留样量、留样时间、留样人员四要素是否填写，留样量是否达到 125 克，留样时间是否记到时分且不在未来，出柜是否距留样满 48 小时，单元格是否残留 XXX、待填 这类模板文字；9 条单表规则与 1 条跨表规则（CF-010）声明在 rules/canteen-retention.yaml，报告分 issues 与 skipped 两部分，只列台账本身能指认的差异。",
+    "descriptionEn": "Reads a canteen retention ledger (a header plus one row per retained sample) and checks that the four required elements (item name, retained amount, retention time, retention staff) are filled in, that the retained amount reaches 125 g, that the retention time is recorded to the minute and is not in the future, that release happens at least 48 hours after retention, and that cells contain no leftover template text such as XXX or 待填. The 9 single-table rules and 1 cross-table rule (CF-010) are declared in rules/canteen-retention.yaml, and the report separates issues from skipped.",
+    "repo": "https://github.com/PerryLink/dsh-canteen-retention-check",
+    "npm": "dsh-canteen-retention-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-cert-mcp",
     "name": "插件认证 MCP",
     "nameEn": "Plugin Certification MCP",
