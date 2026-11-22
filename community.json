@@ -1147,6 +1147,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-policy-ledger",
+    "name": "安装诊断",
+    "nameEn": "Install Doctor",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的只读安装体检：从本地 npm tarball 抽取声明能力并给出 R0–R3 风险，逐条断言 tarball 与快照一致，再把安装日志归因到阶段、根因与三条下一步动作——只读，不改动本机环境。",
+    "descriptionEn": "Read-only install doctor for DeepSeek Harness: extract a local npm tarball's declared capabilities and assign an R0-R3 risk, assert tarball/snapshot consistency item by item, and attribute install failures to a stage, root cause and three next actions; read-only, with no change to the local environment.",
+    "repo": "https://github.com/PerryLink/dsh-policy-ledger",
+    "npm": "dsh-policy-ledger",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-postman",
     "name": "接口调试",
     "nameEn": "API Debugger",
