@@ -1372,6 +1372,18 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-tender-extract",
+    "name": "招标文件条款摘录核对",
+    "nameEn": "Tender Clause Extract Check",
+    "author": "PerryLink",
+    "description": "面向招标代理与投标专员的纯本地招标条款摘录核对：读一份招标文件条款摘录表，按随包的 7 条规则核对出处（条款编号）是否可定位、原文是否逐字照录、提炼要求是否与原文一致、类别是否取自取值口径、序号是否唯一、模板占位符是否残留，每条发现都带行号、字段与修改提示，输出「哪一行、哪一栏、差什么」的清单——不判合规、不认定责任，只提示差异，原件只读。",
+    "descriptionEn": "Local-only tender clause-extract check for tender agents and bidders: read a tender clause-extract table and apply the seven versioned rules to verify that each source citation is locatable, the raw text is verbatim, the distilled requirement matches the source, categories come from the allowed vocabulary, sequence numbers are unique and no template placeholder survives — every finding names the row, the field and the fix; no compliance verdict and no liability finding — differences only, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-tender-extract",
+    "npm": "dsh-tender-extract",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-test-drive",
     "name": "隔离试驾",
     "nameEn": "Isolated Test Drive",
