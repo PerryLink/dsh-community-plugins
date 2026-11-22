@@ -1170,6 +1170,17 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-ppap-check",
+    "name": "PPAP 要素核对",
+    "nameEn": "PPAP Completeness Check",
+    "author": "PerryLink",
+    "description": "面向供应商质量/质量工程师的 DeepSeek Harness 数据型核对插件：读取一份 PPAP 提交要素清单（零件表头加每个要素一行），按随包的版本化规则包 PP-001..PP-007 逐条核对提交等级与要素齐备/自洽，只列材料内部能指认的差异，不判合规、不认定责任。",
+    "descriptionEn": "Data-oriented PPAP check for DeepSeek Harness aimed at supplier quality engineers: read a PPAP submission-element checklist (part header plus one row per element), apply the bundled versioned rule pack PP-001..PP-007 to check submission level and element completeness and consistency, and list only the differences the material itself can identify; it does not judge compliance or assign responsibility.",
+    "repo": "https://github.com/PerryLink/dsh-ppap-check",
+    "npm": "dsh-ppap-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-provider-usage",
     "name": "用量统计悬浮框",
     "nameEn": "Provider Usage",
