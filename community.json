@@ -1336,6 +1336,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-sr-ledger",
+    "name": "系统综述台账",
+    "nameEn": "Systematic Review Ledger",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的系统综述台账：记录 PRISMA 2020 方案修订、导入记录（按 DOI/PMID/arXiv/标题去重）、带评审人与阶段的双人筛选、冲突裁决与 RoB 2/ROBINS-I/GRADE 评估，从只追加的决策账本推导 PRISMA 计数并列出完整性问题，导出 prisma.json/md、证据表与台账——任何事项不被静默消解，账本带哈希链可审计。",
+    "descriptionEn": "Systematic-review ledger for DeepSeek Harness: record PRISMA 2020 protocol revisions, imported records (deduplicated by DOI/PMID/arXiv/title), dual screening with reviewer and stage, conflict adjudications and RoB 2 / ROBINS-I / GRADE assessments; derive PRISMA counts with integrity issues from an append-only decision journal and export prisma.json/md, an evidence table and a ledger JSON — nothing is silently resolved, and the hash-chained journal is audit-verifiable.",
+    "repo": "https://github.com/PerryLink/dsh-sr-ledger",
+    "npm": "dsh-sr-ledger",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
