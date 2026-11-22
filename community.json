@@ -684,6 +684,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-hs-classify",
+    "name": "HS 编码归类核对",
+    "nameEn": "HS Classification Check",
+    "author": "PerryLink",
+    "description": "面向关务与贸易合规的纯本地商品归类台账核对：逐份核对章（2 位）、品目（4 位）、子目（6 位）与商品编号（10 位）的层级与前缀一致性，检查商品编号与子目是否对得上、税则版本是否声明，输出「哪一行、哪一栏、差什么」的清单——只列出差异供人复核，不代为判定归类。",
+    "descriptionEn": "Local-only commodity-classification register check for customs and trade compliance: verify the hierarchy and prefix agreement of chapter (2 digits), heading (4), subheading (6) and commodity code (10), check that each code matches its subheading and that a tariff version is declared, and report a row-by-row, column-by-column difference list — differences only for human review; it does not decide the classification.",
+    "repo": "https://github.com/PerryLink/dsh-hs-classify",
+    "npm": "dsh-hs-classify",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-imagegen",
     "name": "AI 生图",
     "nameEn": "AI ImageGen",
