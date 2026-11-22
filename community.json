@@ -828,6 +828,18 @@
     "subcategory": "notify"
   },
   {
+    "id": "dsh-mask",
+    "name": "PII 脱敏",
+    "nameEn": "PII Masking",
+    "author": "PerryLink",
+    "description": "PII 脱敏中间件：请求到达模型前把姓名、电话、邮箱、证件、银行卡、密钥与地址匿名化为占位符，展示层还原；还原表只存在内存与受控存储域，不记录明文，提供 /mask 命令与 mask_test 工具。",
+    "descriptionEn": "PII masking middleware for DeepSeek Harness: anonymize names, phones, emails, ID cards, bank cards, keys and addresses to placeholders before requests reach the model, restore them at the display layer, keep the restore table only in memory and a controlled storage domain, never log plaintext, and expose /mask and the mask_test tool.",
+    "repo": "https://github.com/PerryLink/dsh-mask",
+    "npm": "dsh-mask",
+    "category": "security",
+    "subcategory": "policy"
+  },
+  {
     "id": "dsh-mcp-manager",
     "name": "MCP 管理器",
     "nameEn": "MCP Manager",
