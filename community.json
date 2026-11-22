@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-research-skills",
+    "name": "科研 SOP 技能包",
+    "nameEn": "Research SOP Skills",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的七个科研 SOP 技能：文献综述、引用审计、主张/证据审计、投稿前检查、审稿回复、可复现审计与数据管理计划；每个技能以 REP 记录或明确结论收尾，不只给散文式建议。",
+    "descriptionEn": "Seven research SOP skills for DeepSeek Harness: literature review, citation audit, claim/evidence audit, manuscript preflight, reviewer response, reproducibility audit and data-management planning; each skill ends in a REP record or an explicit verdict, never in prose alone.",
+    "repo": "https://github.com/PerryLink/dsh-research-skills",
+    "npm": "dsh-research-skills",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
