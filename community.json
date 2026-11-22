@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-research-core",
+    "name": "研究证据协议",
+    "nameEn": "Research Evidence Protocol",
+    "author": "PerryLink",
+    "description": "DeepSeek Harness 科研插件家族的共享证据层 REP v1：为 source/snapshot/anchor/evidence/claim/check/artifact/audit 与报告清单定义 JSON Schema 与 TypeScript 类型，提供零依赖的内容寻址证据库、规范化 SHA-256 哈希、SARIF 导出与独立校验 CLI——一套协议、一个存储、一个校验器，任何科研插件产出的证据都可以离线复算。",
+    "descriptionEn": "REP v1 — the shared Research Evidence Protocol under the DeepSeek Harness research-plugin family: JSON Schema and TypeScript types for sources, snapshots, anchors, evidence, claims, checks, artifacts, audit events and report manifests, plus a zero-dependency content-addressed evidence store, canonical SHA-256 hashing, SARIF export and an independent verifier CLI — one protocol, one store, one verifier, so any research plugin's evidence can be recomputed offline.",
+    "repo": "https://github.com/PerryLink/dsh-research-core",
+    "npm": "@perrylink/dsh-research-core",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
