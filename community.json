@@ -414,6 +414,17 @@
     "subcategory": "sync"
   },
   {
+    "id": "dsh-community-bench",
+    "name": "社区基准标签页",
+    "nameEn": "Community Bench Tab",
+    "author": "PerryLink",
+    "description": "增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数，不采集遥测。",
+    "descriptionEn": "Adds a Community Bench tab that reads the public task-conditioned registry and shows the same score everyone sees; it does not compute a local score and collects no telemetry.",
+    "repo": "https://github.com/PerryLink/dsh-community-bench",
+    "npm": "dsh-community-bench",
+    "category": "ui"
+  },
+  {
     "id": "dsh-completion-guard",
     "name": "完成守卫",
     "nameEn": "Completion Guard",
