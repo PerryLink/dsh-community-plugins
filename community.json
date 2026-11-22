@@ -1017,6 +1017,18 @@
     "subcategory": "access"
   },
   {
+    "id": "dsh-payroll-audit",
+    "name": "工资表核对",
+    "nameEn": "Payroll Audit",
+    "author": "PerryLink",
+    "description": "面向薪酬、人事与财务的工资表核对：按已公开并带复核日期的社保、公积金与个税参数逐行核对缴费基数、费率、险种与应发实发勾稽，给出差异、依据与金额，结果分 pass / pass_with_gaps / review / fail 四档，不代申报。",
+    "descriptionEn": "Payroll audit for DeepSeek Harness: checks a payroll sheet row by row against published social-insurance, housing-fund and individual-income-tax parameters that carry their own review date, covering contribution bases, rates, insurance types and gross-to-net arithmetic, with differences, sources and amounts in pass / pass_with_gaps / review / fail; no filing on the user's behalf.",
+    "repo": "https://github.com/PerryLink/dsh-payroll-audit",
+    "npm": "dsh-payroll-audit",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-pet-quota",
     "name": "宠物额度气泡",
     "nameEn": "Pet Quota Bubble",
