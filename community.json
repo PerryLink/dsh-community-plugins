@@ -1336,6 +1336,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-source-cnki",
+    "name": "中文文献记录",
+    "nameEn": "Chinese Literature Records",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的中文文献记录工具（不抓取 CNKI）：读取 RIS/EndNote 风格或「题名：/作者：/来源：」标注文本导出，分配稳定记录 id，按 GB/T 7714-2015（顺序编码制）或 APA 7 排版引用，并做结构性元数据校验（缺字段、年份离谱、DOI 格式错误、重复）——不登录、不绕过访问控制，缺字段只报缺失、绝不臆造。",
+    "descriptionEn": "Chinese-literature tooling for DeepSeek Harness without scraping CNKI: import RIS/EndNote-style or labeled (题名：/作者：/来源：) exports into stable records, format GB/T 7714-2015 (顺序编码制) or APA 7 citations, and run structural metadata validation (missing fields, implausible year, malformed DOI, duplicates) — no login, no access-control bypass; missing fields are reported, never invented.",
+    "repo": "https://github.com/PerryLink/dsh-source-cnki",
+    "npm": "dsh-source-cnki",
+    "category": "knowledge",
+    "subcategory": "reading"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
