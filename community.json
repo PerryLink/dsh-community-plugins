@@ -993,6 +993,18 @@
     "subcategory": "external-ai"
   },
   {
+    "id": "dsh-ota-review-check",
+    "name": "OTA 点评回复台账核对",
+    "nameEn": "Guest Review Reply Check",
+    "author": "PerryLink",
+    "description": "面向酒店运营与客服的纯本地 OTA 点评回复台账核对：核对每条点评是否记录内容或评分、已回复的点评是否记录回复日期与回复人、回复是否早于点评、未回复的点评是否落在台账自己写明的回复期限之内、问题分类是否取自本机构口径、点评编号是否唯一，输出「哪一行、哪一栏、差什么」的清单——只列材料内部能逐条指认的差异，不评价回复内容是否恰当，原件只读。",
+    "descriptionEn": "Local-only OTA guest-review reply-register check: verify that each review records its content or score, that a replied review carries a reply date and a responder, that no reply precedes its review, that an unreplied review falls inside the deadline the register itself states, that the issue category comes from the institution's vocabulary and that review numbers are unique — a row-by-row, column-by-column difference list; differences the material itself can be held to only, no judgement on whether a reply is appropriate, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-ota-review-check",
+    "npm": "dsh-ota-review-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-output-styles",
     "name": "输出风格",
     "nameEn": "Output Styles",
