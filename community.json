@@ -887,6 +887,18 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-meta-analysis",
+    "name": "元分析计算",
+    "nameEn": "Meta Analysis",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的元分析算术：效应量换算（OR/RR/d/r/SMD，由 CI 求 SE）并注明公式，固定效应与 DerSimonian-Laird 随机效应合并，Q/df/p、I²、τ²、森林图数据，Markdown/SARIF 报告与 k≥10 的轻量 Egger 检验；纯本地、零依赖、可由输入复算。",
+    "descriptionEn": "Meta-analysis arithmetic for DeepSeek Harness: effect-size conversions (OR/RR/d/r/SMD, SE from CI) with named formulas, fixed-effect and DerSimonian-Laird random-effects pooling, Q/df/p, I2, tau2, forest-plot data, Markdown/SARIF reports and a light Egger test for k >= 10; local, dependency-free, reproducible from the inputs.",
+    "repo": "https://github.com/PerryLink/dsh-meta-analysis",
+    "npm": "dsh-meta-analysis",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-milestone",
     "name": "会话里程碑导航条",
     "nameEn": "dsh-milestone",
