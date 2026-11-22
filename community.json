@@ -1290,6 +1290,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-site-log-check",
+    "name": "监理日志核对",
+    "nameEn": "Supervision Log Check",
+    "author": "PerryLink",
+    "description": "面向工程监理的纯本地监理日志核对：依据 GB/T 50319-2013 等公开文件，核对监理日志的跨日连续性（缺日、同日重复）与旁站监理的覆盖情况，把缺日、重复与漏项逐条指到具体日期、具体栏目与所引条款——只报告缺漏与覆盖差异供人复核。",
+    "descriptionEn": "Local-only supervision-log check for construction supervision: following GB/T 50319-2013 and other published documents, verify cross-day continuity (missing days, duplicate logs on one day) and on-site supervision coverage, pointing every missing day, duplicate and uncovered record at the exact date, column and cited clause — gaps and coverage differences only, for human review.",
+    "repo": "https://github.com/PerryLink/dsh-site-log-check",
+    "npm": "dsh-site-log-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-skill-explorer",
     "name": "技能中心（Skill Explorer）",
     "nameEn": "Skill Explorer",
