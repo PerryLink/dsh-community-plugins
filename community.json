@@ -486,6 +486,18 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-contract-renewal",
+    "name": "合同到期登记",
+    "nameEn": "Contract Renewal Register",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地合同到期登记：一行七个字段登记合同，按指定日期分成已过期 / 续签窗口 / N 天内到期三组互斥清单并计算剩余天数，导出 CSV——只做日期与登记表计算，不解析合同正文、不发提醒、不联网。",
+    "descriptionEn": "Local-only contract expiry register for DeepSeek Harness: register contracts with seven fields per row, then split them as of a date into expired / in-renewal-window / due-within-N-days groups with remaining days and export CSV — date and registry arithmetic only, no contract parsing, no reminders, no network.",
+    "repo": "https://github.com/PerryLink/dsh-contract-renewal",
+    "npm": "dsh-contract-renewal",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-cost-voice",
     "name": "大白饭到账语音播报",
     "nameEn": "Dabaifan Turn-Cost Voice",
