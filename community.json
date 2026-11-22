@@ -1017,6 +1017,18 @@
     "subcategory": "access"
   },
   {
+    "id": "dsh-permit-report-check",
+    "name": "行政许可办理台账核对",
+    "nameEn": "Administrative Permit Register Check",
+    "author": "PerryLink",
+    "description": "面向行政许可经办与审批辅助的纯本地许可办理台账核对：依据《中华人民共和国行政许可法》与随包的版本化规则包（PR-001…PR-007），逐行核对申请材料、法定时限与决定记录是否闭环——申请人栏是否填写、受理与决定日期是否可解析且先后成立、时限是否落在法定期限内、决定是否留痕、编号是否唯一，输出「哪一行、哪一栏、差什么」的清单——只提示差异，不作出定性结论，许可决定留给审批人，原件只读。",
+    "descriptionEn": "Local-only administrative licensing register check: following the PRC Administrative Licensing Law and the versioned rule pack it ships (PR-001..PR-007), verify row by row that the application materials, statutory time limits and decision records close the loop — applicant fields are filled, receipt and decision dates parse and follow one another, the deadline falls inside the statutory limit, the decision is recorded and numbers are unique — and return a row-by-row, column-by-column difference list; differences only, no verdict, the permit decision stays with the approver, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-permit-report-check",
+    "npm": "dsh-permit-report-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-pet-quota",
     "name": "宠物额度气泡",
     "nameEn": "Pet Quota Bubble",
