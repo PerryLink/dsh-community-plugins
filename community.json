@@ -1336,6 +1336,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-soe-decision-check",
+    "name": "三重一大决策台账核对",
+    "nameEn": "SOE Decision Register Check",
+    "author": "PerryLink",
+    "description": "面向国企与事业单位办公室、纪检的纯本地「三重一大」决策台账核对：依据《关于进一步推进国有企业贯彻落实「三重一大」决策制度的意见》（中办发〔2010〕17号）与版本化规则库，读取企业表头与每个议题一行，逐条核对前置研究、会议审议与决议记录的程序留痕是否齐备、议题类别是否取自取值口径、会议日期与决议日期是否可解析且先后成立、表决与回避是否记录，输出带 locator（第几行、哪一栏）、found、expected 与 fix 的清单——台账里没有的东西不补不猜，只提示差异，不判合规，原件只读。",
+    "descriptionEn": "Local-only “three-important-and-one-large” decision register check for SOE and public-institution governance, compliance and discipline staff: following the 2010 CPC General Office opinion and a versioned rule pack, read the enterprise header plus one row per matter and verify that the procedural trail — preliminary study, meeting deliberation and resolution record — is complete, that categories come from the allowed vocabulary, that meeting and resolution dates parse and follow one another, and that voting and recusal fields are recorded — returning findings with a locator (row, column), `found`, `expected` and `fix`; it never fills in or guesses what the register does not state — differences only, no compliance verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-soe-decision-check",
+    "npm": "dsh-soe-decision-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
