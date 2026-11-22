@@ -673,6 +673,18 @@
     "subcategory": "net"
   },
   {
+    "id": "dsh-hidden-risk-map",
+    "name": "隐患风险图谱核对",
+    "nameEn": "Hazard Clause Mapping Check",
+    "author": "PerryLink",
+    "description": "面向安全管理与隐患排查的纯本地隐患台账映射核对：依据《工贸企业重大事故隐患判定标准》（应急管理部令第10号），按台账实际列名把每行隐患按字面关键词映射到候选条款，报出未匹配任何条款的行、属其他规定管辖（危险化学品、消防、燃气、特种设备）的行、缺少整改闭环字段的行与命中条目过多的条款，每条注明依据条款——只供人工复核，不判定是否构成重大隐患，原件只读。",
+    "descriptionEn": "Local-only hazard-register mapping check: following 应急管理部令第10号, map each hazard row onto candidate clauses by literal keyword match over the register's own columns, and report rows matching no clause, rows under other rules (hazardous chemicals, fire, gas, special equipment), rows missing remediation-closure fields and clauses hit by too many rows, naming the clause behind every finding — human review only, no major-hazard verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-hidden-risk-map",
+    "npm": "dsh-hidden-risk-map",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-housekeeper",
     "name": "环境管家",
     "nameEn": "Environment Housekeeper",
