@@ -1206,6 +1206,18 @@
     "subcategory": "external-ai"
   },
   {
+    "id": "dsh-scaffold",
+    "name": "插件共享工具包",
+    "nameEn": "Plugin Shared Toolkit",
+    "author": "PerryLink",
+    "description": "面向 PerryLink DSH 插件仓库的零运行时依赖共享工具包：可插拔 Provider seam、fail-closed 审批门与自适应会话事件门、机械校验脚本、共享 sanitize/pricing/judge 模块，以及一份新插件骨架。",
+    "descriptionEn": "Zero-runtime-dependency shared toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules and a new-plugin skeleton.",
+    "repo": "https://github.com/PerryLink/dsh-scaffold",
+    "npm": "dsh-scaffold",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-score",
     "name": "插件评分",
     "nameEn": "Plugin Scoring",
