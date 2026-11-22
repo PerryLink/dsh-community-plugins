@@ -780,6 +780,17 @@
     "subcategory": "model"
   },
   {
+    "id": "dsh-locator",
+    "name": "全盘文件搜索",
+    "nameEn": "Whole-Disk File Search",
+    "author": "PerryLink",
+    "description": "为 DeepSeek Harness 提供全盘文件搜索：自建跨平台索引，不依赖 Everything 或 es.exe，Windows/macOS/Linux 用同一套工具与面板；默认索引主目录，首次内容搜索时会建本地全文索引（SQLite，位于系统缓存目录，覆盖按扩展名认定的文本/源码文件与最近的会话消息），引擎为随包的预编译 Go 程序，插件不发任何网络请求。",
+    "descriptionEn": "Whole-disk file search for DeepSeek Harness: a self-built cross-platform index with no Everything or es.exe dependency, the same tools and panel on Windows, macOS and Linux; indexes the home directory by default, and the first content search builds a local full-text index (SQLite in the platform cache directory) over extension-recognised text and source files and recent DSH session messages; the engine is a prebuilt Go binary shipped for six platforms and the plugin makes no network requests.",
+    "repo": "https://github.com/PerryLink/dsh-locator",
+    "npm": "dsh-locator",
+    "category": "utility"
+  },
+  {
     "id": "dsh-logo-golden",
     "name": "dsh-logo-golden",
     "nameEn": "dsh-logo-golden",
