@@ -1039,6 +1039,18 @@
     "subcategory": "browser"
   },
   {
+    "id": "dsh-pipeline-check",
+    "name": "项目全流程文件链条核对",
+    "nameEn": "Project Document Chain Check",
+    "author": "PerryLink",
+    "description": "面向项目经理与内审的纯本地项目全流程文件链条核对：读入项目表头与逐环节文件行，按随包的 8 条规则核对环节先后、文件齐备与金额口径是否自洽——环节顺序、必备文件、金额与合计是否可解析、阶段与日期是否一致，输出「哪一行、哪一栏、差什么」的清单——只提示差异，不作出定性结论，结论留给审核人，原件只读。",
+    "descriptionEn": "Local-only project document-chain check for project managers and internal audit: read a project header plus one row per stage document and apply the eight versioned rules to verify stage order, document completeness and amount consistency — sequence, mandatory documents, parseable amounts and totals, matching stages and dates — returning a row-by-row, column-by-column difference list; differences only, no verdict, the verdict stays with the reviewer, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-pipeline-check",
+    "npm": "dsh-pipeline-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-plugin-auto-update",
     "name": "插件自动更新",
     "nameEn": "Plugin Auto Update",
