@@ -1170,6 +1170,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-provider-params",
+    "name": "厂商参数映射",
+    "nameEn": "Provider Params",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的只读参数工具包：params_map / params_compare / params_vendors 把 temperature、top_p、max_tokens、stop、system 等字段在 11 家模型厂商间互相映射，json_repair 按固定规则修好尾逗号、裸换行与截断的 JSON；不联网、不写文件、不调用模型，每一步留可审计记录。",
+    "descriptionEn": "Read-only parameter toolkit for DeepSeek Harness: params_map / params_compare / params_vendors map temperature, top_p, max_tokens, stop, system and related fields across 11 LLM vendors, while json_repair fixes trailing commas, raw newlines and truncated JSON with fixed rules; no network, no file writes, no model calls, and every step leaves an auditable record.",
+    "repo": "https://github.com/PerryLink/dsh-provider-params",
+    "npm": "dsh-provider-params",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-provider-usage",
     "name": "用量统计悬浮框",
     "nameEn": "Provider Usage",
