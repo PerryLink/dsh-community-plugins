@@ -1336,6 +1336,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-sop-sync-check",
+    "name": "作业规程同步核对",
+    "nameEn": "SOP Sync Check",
+    "author": "PerryLink",
+    "description": "面向工艺、质量与文件管理人员的纯本地作业规程同步核对：交一份作业规程台账，按版本化规则库与它引用的 PFMEA、控制计划做机械比对（IATF 16949／汽车行业核心工具手册），核对编号与版本是否一致、控制特性是否对应、工序与文件版本是否同步、引用是否可解析，输出「哪一行、哪一栏、差什么」的清单——不改原件，不判合规、不认定责任，只提示差异，结论留给审核人。",
+    "descriptionEn": "Local-only works-instruction sync check for process, quality and document-control staff: hand it one works-instruction register and compare it mechanically against the PFMEA and control plan it cites under a versioned rule pack (IATF 16949 / automotive core tools) — verifying that ids and versions match, control characteristics correspond, operations and document revisions stay in sync and citations resolve — returning which row, which column and what differs; it never edits the original and issues no compliance or liability verdict — differences only, the verdict stays with the reviewer.",
+    "repo": "https://github.com/PerryLink/dsh-sop-sync-check",
+    "npm": "dsh-sop-sync-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
