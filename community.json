@@ -1336,6 +1336,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-statcheck",
+    "name": "统计数值复核",
+    "nameEn": "Stat Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的稿件统计复核：解析 APA 风格的 t/F/χ²/r/z 报告值，用零依赖分布重算双侧与上尾 p 值，核对 CI 与 p 是否自洽，给出精确字符定位，并输出 Markdown、SARIF 2.1.0 与 REP v1 证据记录；只做算术，不下指控。",
+    "descriptionEn": "Recompute the statistics reported in a manuscript and flag self-inconsistent p values for DeepSeek Harness: APA-style t/F/chi-square/r/z parsing, two-tailed and upper-tail p values from zero-dependency distributions, CI-versus-p checks, exact character locators, Markdown and SARIF 2.1.0 output, and a REP v1 evidence record; arithmetic, not accusation.",
+    "repo": "https://github.com/PerryLink/dsh-statcheck",
+    "npm": "dsh-statcheck",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
