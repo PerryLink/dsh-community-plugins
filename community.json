@@ -556,6 +556,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-dida",
+    "name": "滴答清单任务桥",
+    "nameEn": "TickTick Task Bridge",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的滴答清单（TickTick / Dida365）任务桥：会话头部待办面板支持筛选、快加、完成、删除、改期与拖拽排序，另有 11 个 ticktick_* agent 工具、插件页配置卡与类型化 Remote 服务，全部走官方滴答 MCP 端点。",
+    "descriptionEn": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel with filtering, quick add, complete, delete, due dates and drag reorder, 11 ticktick_* agent tools, a plugin settings card and a typed Remote service, all over the official TickTick MCP endpoint.",
+    "repo": "https://github.com/PerryLink/dsh-dida",
+    "npm": "dsh-dida",
+    "category": "integration",
+    "subcategory": "bridge"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
