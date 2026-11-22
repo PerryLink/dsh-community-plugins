@@ -1170,6 +1170,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-protest-deadline",
+    "name": "质疑与投诉期限核对",
+    "nameEn": "Protest Deadline Register Check",
+    "author": "PerryLink",
+    "description": "面向政府采购经办与监督人员的纯本地质疑与投诉台账核对：依据《政府采购质疑和投诉办法》（财政部令第94号）与随包的版本化规则包（PD-001…PD-007），逐行核对关键日期是否记录、日期是否可解析且先后关系成立、答复是否落在台账自己写明的期限之内、处理状态是否取自配置的取值口径、质疑函编号是否唯一，输出「哪一行、哪一栏、差什么」的清单——不判定质疑是否在法定期限内提出、是否应当受理或驳回；只提示差异，结论留给复核人，原件只读。",
+    "descriptionEn": "Local-only query-and-complaint register check for procurement staff and supervisors: following the Government Procurement Query and Complaint Measures (MOF Order No. 94) and the versioned rule pack it ships (PD-001..PD-007), verify row by row that key dates are recorded, that they parse and follow one another, that a reply falls inside the deadline the register itself states, that statuses come from the configured vocabulary and that query numbers are unique — returning a row-by-row, column-by-column difference list; it does not decide whether a query was filed in time or whether it should be accepted or rejected — differences only, the verdict stays with the reviewer, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-protest-deadline",
+    "npm": "dsh-protest-deadline",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-provider-usage",
     "name": "用量统计悬浮框",
     "nameEn": "Provider Usage",
