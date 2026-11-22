@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-review-reply-check",
+    "name": "审稿意见回应核对",
+    "nameEn": "Review Reply Coverage Check",
+    "author": "PerryLink",
+    "description": "面向期刊编辑的纯主机端审稿意见回应核对：读取一份审稿意见逐条回应表，按版本化规则库核对意见与回应是否一一对应、回应是否留痕、修改位置是否指明，输出带 locator 的「哪一条、哪一栏、差什么」清单——无法执行的检查写进 skipped 并写明原因，绝不静默通过；不判断回应是否充分、修改是否到位或稿件是否应当录用；只提示差异，不联网、不调用模型，原件只读。",
+    "descriptionEn": "Pure host-side review-comment response check for journal editors: read one comment-by-comment response table and apply the versioned rule pack to verify that every comment has a matching response, that responses leave a paper trail and that the changed location is named — returning locator-carrying findings; checks that cannot run are written into `skipped` with a reason and never pass silently; it does not decide whether a response is adequate, whether the revision is sufficient or whether the manuscript should be accepted — differences only, no network, no model call, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-review-reply-check",
+    "npm": "dsh-review-reply-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
