@@ -673,6 +673,18 @@
     "subcategory": "net"
   },
   {
+    "id": "dsh-hazchem-check",
+    "name": "危化品台账核对",
+    "nameEn": "Hazchem Register Check",
+    "author": "PerryLink",
+    "description": "面向安全管理的纯本地危险化学品台账核对：核对每种物质是否载明危险性类别、储存量能否解析、是否记录临界量、重大危险源判定与该储存量相对台账自述临界量的关系是否一致、是否载明安全技术说明书编号、CAS 号是否重复，输出「哪一行、哪一栏、差什么」的清单——只列出差异供人复核，不判定某单元是否构成重大危险源。",
+    "descriptionEn": "Local-only hazardous-chemical register check for safety management: verify that each substance names its hazard class, that stored quantities parse, that a threshold is recorded, that the major-hazard-source verdict agrees with how the stored quantity compares to the stated threshold, that safety data sheet numbers are present and CAS numbers are not duplicated, and report a row-by-row, column-by-column difference list — differences only for human review; it does not decide whether a unit constitutes a major hazard source.",
+    "repo": "https://github.com/PerryLink/dsh-hazchem-check",
+    "npm": "dsh-hazchem-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-housekeeper",
     "name": "环境管家",
     "nameEn": "Environment Housekeeper",
