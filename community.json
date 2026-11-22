@@ -556,6 +556,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-drill-script-check",
+    "name": "应急演练脚本核对",
+    "nameEn": "Emergency Drill Script Check",
+    "author": "PerryLink",
+    "description": "面向应急管理的纯本地应急演练脚本核对：依据《生产安全事故应急演练基本规范》，核对每个环节是否填写演练阶段或脚本内容、是否明确指挥人、响应级别是否取自配置口径、有脚本动作的环节是否列明所需资源、各环节计划时长合计是否等于演练总时长、关键节点是否写明判定条件、序号是否重复、表头是否声明演练名称与组织单位，输出「哪一行、哪一栏、差什么、怎么补」的清单——只提示差异，不作出定性结论，原件只读。",
+    "descriptionEn": "Local-only emergency-drill-script check: following the Basic Specification for Emergency Drills of Production Safety Accidents, verify that each step records its drill phase or script text and a commander, that response levels come from the configured vocabulary, that action steps list their resources, that step durations total the planned duration, that key checkpoints state judgement conditions, that step numbers are unique and that the header names the drill and organising unit — a row-by-row, column-by-column list of what differs and how to fix it; differences only, no verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-drill-script-check",
+    "npm": "dsh-drill-script-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
