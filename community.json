@@ -568,6 +568,18 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-eval-pack",
+    "name": "Eval pack 校验与评分",
+    "nameEn": "Eval Pack Lint & Grader",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地评测工具包：lint 评测样本结构、按规范化 JSON 精确比对逐例评分、汇总一次运行并无偏估计 pass@k；四个工具全部只读，不联网、不调用模型、不上传数据。",
+    "descriptionEn": "Pure-local eval toolkit for DeepSeek Harness: lint an eval-pack structure, grade case by case with normalised exact JSON equality, summarise a run and estimate pass@k without bias; all four tools are read-only, with no network, no model calls and no uploads.",
+    "repo": "https://github.com/PerryLink/dsh-eval-pack",
+    "npm": "dsh-eval-pack",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
