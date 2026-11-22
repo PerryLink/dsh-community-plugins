@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-rulefile-check",
+    "name": "规则库文件自检核对",
+    "nameEn": "Rule Pack Self-Check",
+    "author": "PerryLink",
+    "description": "面向规则库维护者的纯本地规则库自检：按本插件家族自定的条款引用纪律与效力上限（自定纪律，非国家标准），逐条核对规则编号是否唯一、依据字段是否完整、摘录长度是否与原文相符、来源是否为链接形状、定级是否超过效力上限、引用是否可解析，输出「哪一条、哪一栏、差什么」的清单——不判合规、不认定责任、不改原件，只提示差异，结论留给维护者。",
+    "descriptionEn": "Local-only self-check for rule-pack maintainers: applying this plugin family's own citation discipline and severity ceilings (self-imposed, not a national standard), verify line by line that rule ids are unique, basis fields are complete, excerpt length matches the source text, sources are link-shaped, severity does not exceed the ceiling and citations parse — returning which rule, which field, what is inconsistent and what to fix; no compliance verdict, no liability finding and no edit to the original — differences only, the verdict stays with the maintainer.",
+    "repo": "https://github.com/PerryLink/dsh-rulefile-check",
+    "npm": "dsh-rulefile-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
