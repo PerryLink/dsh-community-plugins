@@ -1278,6 +1278,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-settlement-docs",
+    "name": "结算资料核对",
+    "nameEn": "Settlement Docs Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地结算资料齐套核对：读资料清单 CSV 与实际提交清单 CSV 逐项对齐，算出齐套率并列出缺件、份数不足、未签字/未盖章与非必需缺失，导出 Excel 可直接打开的核对表——只读文件名、份数与签章标记，不读内容、不联网。",
+    "descriptionEn": "Local-only settlement-document completeness check for DeepSeek Harness: align a checklist CSV with the actual-submission CSV item by item, compute the completeness rate and list missing documents, short copies, missing signatures/stamps and absent optional items, then export an Excel-friendly worksheet — file names, copy counts and stamp markers only, no file contents read, no network.",
+    "repo": "https://github.com/PerryLink/dsh-settlement-docs",
+    "npm": "dsh-settlement-docs",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-sidebar-suite",
     "name": "侧栏布局套件",
     "nameEn": "Sidebar Suite",
