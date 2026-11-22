@@ -568,6 +568,17 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-fast",
+    "name": "性能诊断",
+    "nameEn": "Performance Diagnostics",
+    "author": "PerryLink",
+    "description": "DeepSeek Harness 的性能剖析与 LLM 缓存诊断：上下文工程、延迟剖析与缓存行为报告。",
+    "descriptionEn": "Performance profiling and LLM cache diagnostics for DeepSeek Harness: context engineering, latency profiling and cache behavior reports.",
+    "repo": "https://github.com/PerryLink/dsh-fast",
+    "npm": "dsh-fast",
+    "category": "tools"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
