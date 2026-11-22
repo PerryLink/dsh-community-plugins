@@ -732,6 +732,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-lc-doc-check",
+    "name": "信用证单据核对",
+    "nameEn": "LC Document Check",
+    "author": "PerryLink",
+    "description": "面向信用证审单岗的纯本地交单核对：读入信用证表头与逐条条款，用版本化规则包核对单据种类、份数、期限以及表头与日期的内部一致性，只列差异（error / warn / skipped）——不判合规、不认定责任、不联网、不改原件。",
+    "descriptionEn": "Local letter-of-credit document check for LC examiners: read the L/C header and line items, apply a versioned rule pack to check document types, copies, periods and the internal consistency of header fields and dates, and list only the differences (error / warn / skipped) — no compliance verdict, no liability finding, no network, originals untouched.",
+    "repo": "https://github.com/PerryLink/dsh-lc-doc-check",
+    "npm": "dsh-lc-doc-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-library",
     "name": "本地文档知识库",
     "nameEn": "Local Document Library",
