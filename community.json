@@ -840,6 +840,17 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-mcp-panel",
+    "name": "MCP 管理面板",
+    "nameEn": "MCP Management Panel",
+    "author": "PerryLink",
+    "description": "官方 MCP 客户端的控制台：/mcp 与设置页 MCP 页签给出只读运行时视图（连接状态、已注册工具、错误与重连计数），并在 cordis.patch.yml 上做走审批、先备份的 server CRUD 与工具试用台。",
+    "descriptionEn": "Console for the official DSH MCP client: a read-only runtime view (connection status, registered tools, errors, reconnect counts) in /mcp and a Settings tab, plus approval-gated, backed-up server CRUD through cordis.patch.yml and a tool trial console.",
+    "repo": "https://github.com/PerryLink/dsh-mcp-panel",
+    "npm": "dsh-mcp-panel",
+    "category": "tools"
+  },
+  {
     "id": "dsh-mcptoon",
     "name": "mcptoon MCP 接入",
     "nameEn": "mcptoon MCP Bridge",
