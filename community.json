@@ -1017,6 +1017,18 @@
     "subcategory": "access"
   },
   {
+    "id": "dsh-pdf-table",
+    "name": "PDF 表格抽取",
+    "nameEn": "PDF Table Extract",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地 PDF 表格抽取：pdf_inspect 检查是否存在文本层，pdf_tables 按坐标还原行列，pdf_to_csv 导出带引号转义、可逐格核对的 CSV；不做 OCR，扫描件不支持。",
+    "descriptionEn": "Pure-local PDF table extraction for DeepSeek Harness: pdf_inspect checks for a text layer, pdf_tables reconstructs rows and columns from coordinates, and pdf_to_csv writes a quote-escaped CSV that can be verified cell by cell; no OCR, scanned PDFs are not supported.",
+    "repo": "https://github.com/PerryLink/dsh-pdf-table",
+    "npm": "dsh-pdf-table",
+    "category": "knowledge",
+    "subcategory": "reading"
+  },
+  {
     "id": "dsh-pet-quota",
     "name": "宠物额度气泡",
     "nameEn": "Pet Quota Bubble",
