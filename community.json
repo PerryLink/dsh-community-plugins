@@ -1278,6 +1278,17 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-sherlock",
+    "name": "公开用户名核查",
+    "nameEn": "Public Username Check",
+    "author": "PerryLink",
+    "description": "基于固定 481 站点 Sherlock 清单检查公开用户名，返回六态结果，对 claimed 做随机负样本校验；默认 core 41，all 单次最多 120，NSFW 默认关闭。",
+    "descriptionEn": "Public-username checks over a pinned 481-site Sherlock manifest; six states, random negative-sample verification for claimed results, default core 41, all capped at 120, NSFW off by default.",
+    "repo": "https://github.com/PerryLink/dsh-sherlock",
+    "npm": "dsh-sherlock",
+    "category": "security"
+  },
+  {
     "id": "dsh-sidebar-suite",
     "name": "侧栏布局套件",
     "nameEn": "Sidebar Suite",
