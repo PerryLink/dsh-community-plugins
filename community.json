@@ -556,6 +556,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-dmp",
+    "name": "数据管理计划",
+    "nameEn": "Data Management Plan",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地数据管理计划工具：按十个章节（数据描述、收集、文档、存储/备份、安全、共享、保存、角色、法律依据、费用）给出带提示语的脚手架，核对章节齐备性与内部一致性（个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI、联系人），并导出可粘贴进资助方表格的 Markdown——只做内部自洽核对，不替代资助方模板，不联网、不调用模型、不上传。",
+    "descriptionEn": "Local-only data-management-plan tooling for DeepSeek Harness: a ten-section scaffold (data description, collection, documentation, storage/backup, security, sharing, retention, roles, legal basis, costs) with prompts, completeness and internal-consistency checks (personal data vs open sharing, retention minimum, backup, repository/licence/DOI, contact), and a Markdown export you can paste into the funder's form — internal consistency checks only, not funder-template certification; no network, no model call, no upload.",
+    "repo": "https://github.com/PerryLink/dsh-dmp",
+    "npm": "dsh-dmp",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
