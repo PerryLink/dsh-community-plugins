@@ -1028,6 +1028,18 @@
     "subcategory": "stats"
   },
   {
+    "id": "dsh-phocinae",
+    "name": "本机决策层",
+    "nameEn": "Local Decision Layer",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的本地非生成式决策层：phocinae_ask 回答批量的是/否、单选与 2–10 评分，phocinae_gate 与 tools/pre-execute 门把同一判断变成 allow/ask/deny；由本机小型决策模型返回带校准置信度的类型化裁决，服务不可达时转人工而不是静默放行（需在本机 8155 端口运行 phocinae-server）。",
+    "descriptionEn": "Local non-generative decision layer for DeepSeek Harness: phocinae_ask answers batched yes/no, single-choice and 2-10 score questions, while phocinae_gate and a tools/pre-execute gate turn the same judgement into allow/ask/deny; a small local decision model returns typed verdicts with calibrated confidence, and an unreachable service escalates to a human instead of silently allowing (requires phocinae-server on local port 8155).",
+    "repo": "https://github.com/PerryLink/dsh-phocinae",
+    "npm": "dsh-phocinae",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-pilot",
     "name": "Pilot 浏览器驾驶舱",
     "nameEn": "Pilot Browser Cockpit",
