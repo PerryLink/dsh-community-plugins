@@ -1194,6 +1194,17 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-repair-order-qc",
+    "name": "维修工单核对",
+    "nameEn": "Repair Order Settlement Check",
+    "author": "PerryLink",
+    "description": "维修工单项目金额、工时配件与结算总额核对。",
+    "descriptionEn": "Repair order settlement check: item amounts, labour/parts totals and grand total.",
+    "repo": "https://github.com/PerryLink/dsh-repair-order-qc",
+    "npm": "dsh-repair-order-qc",
+    "category": "tools"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
