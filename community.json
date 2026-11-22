@@ -732,6 +732,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-lawcite-adapter",
+    "name": "法条引用核对",
+    "nameEn": "Legal Citation Check",
+    "author": "PerryLink",
+    "description": "面向律师与法务的纯本地法条引用核对：逐处核对引用清单的法律名称、条号、引文与效力状态，以及文书要素，输出「哪一行、哪一栏、差什么」的差异清单——规则包逐条写明依据来源，只列字面差异，不查法规库、不下合规结论、不改原件。",
+    "descriptionEn": "Local legal-citation check for lawyers and legal ops: verify statute names, article numbers, quoted text and validity status in citation lists plus document elements, and output a row-by-row, column-by-column difference list — every rule names its source, and it reports literal differences only; no statute-database lookup, no compliance verdict, originals untouched.",
+    "repo": "https://github.com/PerryLink/dsh-lawcite-adapter",
+    "npm": "dsh-lawcite-adapter",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-library",
     "name": "本地文档知识库",
     "nameEn": "Local Document Library",
