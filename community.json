@@ -164,6 +164,18 @@
     "subcategory": "policy"
   },
   {
+    "id": "dsh-ar-aging",
+    "name": "应收账龄分析",
+    "nameEn": "AR Aging",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地应收账龄分析：读一份应收明细 CSV，按开票日算账龄、按到期日算逾期，输出固定分桶、客户汇总、逾期占比与 Top 逾期客户，并导出 CSV——三个 `ar.*` 工具，不联网、不调用模型、不上传。",
+    "descriptionEn": "Local-only AR aging for DeepSeek Harness: read one receivables CSV, age invoices from the invoice date and measure overdue from the due date, then output fixed buckets, a customer summary, the overdue ratio and top overdue customers, and export CSV — three `ar.*` tools, no network, no model call, no upload.",
+    "repo": "https://github.com/PerryLink/dsh-ar-aging",
+    "npm": "dsh-ar-aging",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-archived-chats",
     "name": "归档管理",
     "nameEn": "Archive Management",
