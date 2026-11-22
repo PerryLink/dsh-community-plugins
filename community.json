@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-response-letter",
+    "name": "审稿回复信核对",
+    "nameEn": "Reviewer Response Letter",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的审稿回复信工作流：解析 Reviewer/Referee/审稿人 标题行与编号标记（含段落回退），为每条意见分配全局编号与字符位置，按回复编号核对逐条答复（缺失、少于 20 字符、多余、重复），导出带覆盖表的 Markdown 回复信，解析结果与覆盖计数作为 REP 证据——只核对编号与覆盖，不改写审稿意见。",
+    "descriptionEn": "Reviewer-response workflow for DeepSeek Harness: parse reviewer comments (Reviewer/Referee/审稿人 headers and numbered markers, with a paragraph fallback), assign each comment a global number and locator, check point-by-point coverage by response number (missing, under 20 characters, extra, duplicates), and export a Markdown response letter with a coverage table; parsed reviews become REP evidence — coverage checking only, comments are not rewritten.",
+    "repo": "https://github.com/PerryLink/dsh-response-letter",
+    "npm": "dsh-response-letter",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
