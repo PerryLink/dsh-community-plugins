@@ -1028,6 +1028,18 @@
     "subcategory": "stats"
   },
   {
+    "id": "dsh-phone-inbox",
+    "name": "手机收件箱",
+    "nameEn": "Phone Inbox",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的入站手机（微信桥）附件收件箱：列出本会话真正收到的附件，经检查后按需取进工作区并恢复被桥压坏的文件名；不新开通道、不复制多余文件，取用全程留痕。",
+    "descriptionEn": "Inbound phone (WeChat bridge) attachment inbox for DeepSeek Harness: list the attachments a session actually received, adopt one into the workspace on demand after checks, and restore filenames mangled by the bridge; no new channel, no redundant copies, and every adoption is recorded.",
+    "repo": "https://github.com/PerryLink/dsh-phone-inbox",
+    "npm": "dsh-phone-inbox",
+    "category": "integration",
+    "subcategory": "bridge"
+  },
+  {
     "id": "dsh-pilot",
     "name": "Pilot 浏览器驾驶舱",
     "nameEn": "Pilot Browser Cockpit",
