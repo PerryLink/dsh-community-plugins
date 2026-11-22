@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-research-report",
+    "name": "研究报告",
+    "nameEn": "Research Report",
+    "author": "PerryLink",
+    "description": "可核查的研究报告引擎：内容寻址的证据台账（结论与快照绑定、可发现篡改），版本化封存报告让每条结论带核查结论、manifest 哈希封存整个目录，检索编排复用 ctx.web 与 ctx.jobs 接口。",
+    "descriptionEn": "Verifiable research-report engine for DeepSeek Harness with a content-addressed evidence ledger (claim-snapshot binding, tamper-evident), versioned sealed reports in which every claim carries a verification verdict with the manifest hash sealing the directory, and retrieval orchestration over the ctx.web and ctx.jobs seams.",
+    "repo": "https://github.com/PerryLink/dsh-research-report",
+    "npm": "dsh-research-report",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
