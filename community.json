@@ -402,6 +402,18 @@
     "subcategory": "api"
   },
   {
+    "id": "dsh-clinic",
+    "name": "插件诊断与就绪检查",
+    "nameEn": "Plugin Diagnostics & Readiness",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 插件的诊断、恢复与就绪检查。",
+    "descriptionEn": "Diagnostics, recovery and readiness checks for DeepSeek Harness plugins.",
+    "repo": "https://github.com/PerryLink/dsh-clinic",
+    "npm": "dsh-clinic",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-cloud-sync",
     "name": "云同步服务",
     "nameEn": "Cloud Sync",
