@@ -1206,6 +1206,17 @@
     "subcategory": "external-ai"
   },
   {
+    "id": "dsh-safety-ledger-check",
+    "name": "安全资格台账核对",
+    "nameEn": "Safety Qualification Ledger Check",
+    "author": "PerryLink",
+    "description": "核对施工安全资格台账的培训学时、四个记录要素，以及特种作业证书有效期与作业时间的匹配。",
+    "descriptionEn": "Checks a site safety-qualification ledger for training hours, the four required record elements, and special-operation certificate validity against the dates the person worked.",
+    "repo": "https://github.com/PerryLink/dsh-safety-ledger-check",
+    "npm": "dsh-safety-ledger-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-score",
     "name": "插件评分",
     "nameEn": "Plugin Scoring",
