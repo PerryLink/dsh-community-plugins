@@ -684,6 +684,17 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-image-integrity",
+    "name": "图像完整性检查",
+    "nameEn": "Image Integrity Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的图像完整性检查：零依赖 8-bit PNG 解码，用块指纹与 NCC 确认查找同一图内或两图之间重复/镜像的区域，并输出 REP 证据与 Markdown/SARIF 报告。",
+    "descriptionEn": "Image integrity checks for DeepSeek Harness: zero-dependency 8-bit PNG decoding with block fingerprints and NCC confirmation to find duplicated or mirrored regions within or across figures, plus REP evidence and Markdown/SARIF reports.",
+    "repo": "https://github.com/PerryLink/dsh-image-integrity",
+    "npm": "dsh-image-integrity",
+    "category": "tools"
+  },
+  {
     "id": "dsh-imagegen",
     "name": "AI 生图",
     "nameEn": "AI ImageGen",
