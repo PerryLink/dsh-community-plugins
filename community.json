@@ -756,6 +756,18 @@
     "subcategory": "render"
   },
   {
+    "id": "dsh-lit-harvest",
+    "name": "文献检索采集",
+    "nameEn": "Literature Harvest",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的确定性文献检索：一次并发查询 OpenAlex、Crossref、arXiv 与 Europe PMC，按 DOI → arXiv id → 归一化标题去重合并，经 Unpaywall 解析开放获取链接，按配额与子主题覆盖度报告显式缺口与下一轮查询，有界采集循环的运行记录落入 REP——循环里不调用 LLM、不抓站、不绕过付费墙。",
+    "descriptionEn": "Deterministic literature harvesting for DeepSeek Harness: query OpenAlex, Crossref, arXiv and Europe PMC in one call, dedupe by DOI → arXiv id → normalized title, resolve open-access links through Unpaywall, report quota and subtopic coverage with explicit gaps and next queries, and land the bounded harvest run record in REP — no LLM in the loop, no scraping, no paywall bypass.",
+    "repo": "https://github.com/PerryLink/dsh-lit-harvest",
+    "npm": "dsh-lit-harvest",
+    "category": "knowledge",
+    "subcategory": "reading"
+  },
+  {
     "id": "dsh-llm-keypool",
     "name": "多 Key 轮换池",
     "nameEn": "LLM Key Pool",
