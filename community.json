@@ -1372,6 +1372,17 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-tender-requirements",
+    "name": "招标要点提取",
+    "nameEn": "Tender Requirements Extract",
+    "author": "PerryLink",
+    "description": "从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条报告。",
+    "descriptionEn": "Extracts deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document; reports items not found.",
+    "repo": "https://github.com/PerryLink/dsh-tender-requirements",
+    "npm": "dsh-tender-requirements",
+    "category": "tools"
+  },
+  {
     "id": "dsh-test-drive",
     "name": "隔离试驾",
     "nameEn": "Isolated Test Drive",
