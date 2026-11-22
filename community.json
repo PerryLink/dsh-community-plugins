@@ -568,6 +568,18 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-export-ctl-check",
+    "name": "出口管制物项台账核对",
+    "nameEn": "Export Control Item Register Check",
+    "author": "PerryLink",
+    "description": "面向出口管制合规的纯本地物项台账核对：依据《中华人民共和国出口管制法》，逐条核对每条物项是否在「是否受控」栏写明是否受控、受控物项是否填写许可证号与发证日期、最终用途或最终用户与最终目的地是否至少填写、许可证号是否在同一台账内重复、管制类别是否取用本机构口径、物项名称栏是否残留占位符，输出「哪一行、哪一栏、差什么」的清单——只列台账内部差异，不判定物项是否受控、是否需要许可，原件只读。",
+    "descriptionEn": "Local-only export-control item-register check: following the Export Control Law of the PRC, verify that each item states whether it is controlled, that controlled items carry a licence number and issue date, that end use or end user and destination are recorded, that licence numbers do not repeat within the register, that control categories come from the institution's vocabulary and that no template placeholder survives — a row-by-row, column-by-column difference list; internal differences only, it does not decide whether an item is controlled or licensed, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-export-ctl-check",
+    "npm": "dsh-export-ctl-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
