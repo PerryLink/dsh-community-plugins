@@ -993,6 +993,18 @@
     "subcategory": "external-ai"
   },
   {
+    "id": "dsh-origin-rvc-check",
+    "name": "原产地区域价值成分台账核对",
+    "nameEn": "Origin RVC Register Check",
+    "author": "PerryLink",
+    "description": "面向关务与原产地管理的纯本地原产地判定台账核对：依据各自由贸易协定原产地规则，核对协定与产品是否声明、区域价值成分是否等于 (FOB−非原产材料价值)÷FOB×100 且达到配置门槛、每条料件是否填写原产国与原产地标准、料件序号是否唯一、品名栏是否残留占位符，输出「哪一行、哪一栏、差什么」的清单——只核台账自身算术与字面差异，不判断能否取得原产资格，原件只读。",
+    "descriptionEn": "Local-only origin-determination register check: following free-trade-agreement origin rules, verify that the agreement and product are declared, that regional value content equals (FOB minus non-originating value) divided by FOB times 100 and meets the configured threshold, that each material states its origin and origin criterion, that material numbers are unique and that no placeholder survives in the description column — a row-by-row, column-by-column difference list; its own arithmetic and literal differences only, no origin-eligibility verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-origin-rvc-check",
+    "npm": "dsh-origin-rvc-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-output-styles",
     "name": "输出风格",
     "nameEn": "Output Styles",
