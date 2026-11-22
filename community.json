@@ -498,6 +498,17 @@
     "subcategory": "notify"
   },
   {
+    "id": "dsh-customs-doc-check",
+    "name": "报关单证核对",
+    "nameEn": "Customs Document Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的数据型核查插件：读取一份报关单证台账（栏名中英文皆可），按随包的版本化规则包 CD-001..CD-007 核对关键栏目、商品编码与币制形式、单证编号唯一性、毛重不低于净重、日期可解析与模板占位符；只列材料内部能逐条指认的差异，不判合规、不认定责任。",
+    "descriptionEn": "Customs declaration document consistency check for DeepSeek Harness: reads a declaration document ledger (Chinese or English headers) and applies the bundled versioned rule pack CD-001..CD-007 to required columns, HS-code and currency forms, unique document numbers, gross weight not below net weight, parseable dates and template placeholders. It lists only differences it can point to inside the material — never a compliance verdict.",
+    "repo": "https://github.com/PerryLink/dsh-customs-doc-check",
+    "npm": "dsh-customs-doc-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-data-agent",
     "name": "Data Agent",
     "nameEn": "Data Agent",
