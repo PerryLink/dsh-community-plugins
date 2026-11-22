@@ -934,6 +934,18 @@
     "subcategory": "net"
   },
   {
+    "id": "dsh-notebook-capture",
+    "name": "Notebook 复现采集",
+    "nameEn": "Notebook Capture",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的 Notebook 复现采集：不执行、只读取 .ipynb，报告内核与语言、代码/文本单元、执行顺序（乱序与从未运行）、import、运行时安装、随机种子、绝对路径与输出状态，并对 notebook 与环境声明做哈希，输出 REP 证据、Markdown 采集卡与 SARIF。",
+    "descriptionEn": "Notebook reproducibility capture for DeepSeek Harness: reads .ipynb without executing it and reports kernel and language, code vs markdown cells, execution order (out-of-order and never-run cells), imports, runtime installs, seeds, absolute paths and output state, hashing the notebook and its environment declarations; emits REP evidence, a Markdown capture card and SARIF.",
+    "repo": "https://github.com/PerryLink/dsh-notebook-capture",
+    "npm": "dsh-notebook-capture",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-notifier",
     "name": "dsh-notifier",
     "nameEn": "dsh-notifier",
