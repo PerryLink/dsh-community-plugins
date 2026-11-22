@@ -708,6 +708,18 @@
     "subcategory": "qa"
   },
   {
+    "id": "dsh-irb",
+    "name": "伦理申请核对",
+    "nameEn": "Ethics Application Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地伦理审查申请自查：按 18 项关键词清单（题名、负责人、目的、设计、参与者、招募、知情同意、未成年人赞同、风险、获益、保密、弱势群体、补偿、利益冲突、保存、传播、动物伦理、生物安全）逐项核对申请材料并给出字符位置，按结构化标记给出建议性风险等级与相应保障措施，导出 Markdown + SARIF——只提示缺项，不代替伦理委员会作出结论。",
+    "descriptionEn": "Local-only ethics-application checklist for DeepSeek Harness: check the application against an 18-item keyword checklist (title, PI, purpose, design, participants, recruitment, consent, assent, risks, benefits, confidentiality, vulnerable groups, compensation, conflicts, retention, dissemination, animal ethics, biosafety) with character locators, derive an advisory risk level and required safeguards from structured flags, and export Markdown + SARIF — it flags missing items; it does not replace the ethics committee.",
+    "repo": "https://github.com/PerryLink/dsh-irb",
+    "npm": "dsh-irb",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-jump",
     "name": "跳跃导航",
     "nameEn": "dsh-jump",
