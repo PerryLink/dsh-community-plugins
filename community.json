@@ -556,6 +556,17 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-demurrage-ledger",
+    "name": "滞期费台账核对",
+    "nameEn": "Demurrage Ledger",
+    "author": "PerryLink",
+    "description": "读取一份滞箱费台账（表头加每个集装箱一行），核对每行是否至少填写箱号或提单号、免箱期起算日与还箱日期是否可解析且先后成立、超期天数是否等于两个日期之差减去免箱期、金额是否等于超期天数乘以费率、币制是否为三位字母代码、箱号是否重复、备注栏是否残留未替换的模板占位符；免箱期与费率一律取自台账本身，纯内存计算、不联网、不调用模型，只列差异。",
+    "descriptionEn": "Reads a demurrage and detention ledger (a header plus one row per container) and checks that each row carries at least a container number or bill-of-lading number, that the free-time start date and return date parse and are in the right order, that overdue days equal the date difference minus free time, that the amount equals overdue days times the rate, that the currency is a three-letter code, that container numbers are unique and that the remarks column has no unreplaced template placeholders. Free time and rates come from the ledger itself; computation is purely in-memory with no network call and no model call, and only differences are listed.",
+    "repo": "https://github.com/PerryLink/dsh-demurrage-ledger",
+    "npm": "dsh-demurrage-ledger",
+    "category": "tools"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
