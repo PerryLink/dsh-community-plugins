@@ -1278,6 +1278,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-session-sync",
+    "name": "会话同步",
+    "nameEn": "Session Sync",
+    "author": "PerryLink",
+    "description": "跨设备会话同步：用一个专用 git 镜像在多台机器之间同步 DeepSeek Harness 的会话与设置，冲突按 append-only 保留双方（分叉文件、不静默覆盖），提供 /sync 命令与 sync_* 工具。",
+    "descriptionEn": "Cross-device session sync for DeepSeek Harness: a dedicated git mirror syncs sessions and settings between machines with append-only keep-both conflict resolution (fork files, never silently overwritten), plus a /sync command and sync_* tools.",
+    "repo": "https://github.com/PerryLink/dsh-session-sync",
+    "npm": "dsh-session-sync",
+    "category": "integration",
+    "subcategory": "sync"
+  },
+  {
     "id": "dsh-sidebar-suite",
     "name": "侧栏布局套件",
     "nameEn": "Sidebar Suite",
