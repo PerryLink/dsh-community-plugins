@@ -164,6 +164,18 @@
     "subcategory": "policy"
   },
   {
+    "id": "dsh-ar-collection",
+    "name": "应收催收计划",
+    "nameEn": "AR Collection Plan",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地应收催收：读应收账款 CSV，按 7/15/30 天提醒阶梯为每个客户排出该催哪几票、何时催，生成中文催收函草稿与催收清单 CSV——草稿只写在本机，不联网、不发送。",
+    "descriptionEn": "Local-only AR collection for DeepSeek Harness: read the receivables CSV, apply a 7/15/30-day reminder ladder to work out which invoices each customer should be chased for and when, and draft Chinese collection letters plus a collection-list CSV — drafts stay on your machine, no network, nothing sent.",
+    "repo": "https://github.com/PerryLink/dsh-ar-collection",
+    "npm": "dsh-ar-collection",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-archived-chats",
     "name": "归档管理",
     "nameEn": "Archive Management",
