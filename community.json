@@ -661,6 +661,18 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-github-bot",
+    "name": "GitHub 协作助手",
+    "nameEn": "GitHub Bot",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的 GitHub 协作工具：查看并处理 PR、评审、issue 与 CI，写操作需经审批。",
+    "descriptionEn": "GitHub PRs, reviews, issues and CI for DeepSeek Harness, with approval-gated writes.",
+    "repo": "https://github.com/PerryLink/dsh-github-bot",
+    "npm": "dsh-github-bot",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-gzip",
     "name": "dsh-gzip",
     "nameEn": "dsh-gzip",
