@@ -1348,6 +1348,17 @@
     "subcategory": "chat"
   },
   {
+    "id": "dsh-table-ingest",
+    "name": "表格导入",
+    "nameEn": "Table Ingest",
+    "author": "PerryLink",
+    "description": "把 .docx、.xlsx、.xlsm、.csv、.tsv 中的表格转换成规则核查器可读的 table JSON；识别不了时明确报告，不做猜测。",
+    "descriptionEn": "Converts tables in .docx, .xlsx, .xlsm, .csv and .tsv files into the table JSON consumed by the rule checkers, and reports when it could not rather than guessing.",
+    "repo": "https://github.com/PerryLink/dsh-table-ingest",
+    "npm": "dsh-table-ingest",
+    "category": "tools"
+  },
+  {
     "id": "dsh-talk",
     "name": "语音交互",
     "nameEn": "Voice Session",
