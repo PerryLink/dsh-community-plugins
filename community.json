@@ -851,6 +851,17 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-memento",
+    "name": "跨会话记忆",
+    "nameEn": "Cross-Session Memory",
+    "author": "PerryLink",
+    "description": "有界、分层、带审批门、可审计的跨会话记忆：typed ctx.memory 服务、零依赖 SQLite 存储、memory 工具与冻结快照注入。",
+    "descriptionEn": "Bounded, layered, approval-gated, auditable cross-session memory: a typed ctx.memory seam, a zero-dependency SQLite provider, a memory tool and frozen snapshot injection.",
+    "repo": "https://github.com/PerryLink/dsh-memento",
+    "npm": "dsh-memento",
+    "category": "knowledge"
+  },
+  {
     "id": "dsh-memoir",
     "name": "项目记忆 Memoir",
     "nameEn": "Project Memory Memoir",
