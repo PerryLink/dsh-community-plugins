@@ -1336,6 +1336,17 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-spc-gbt-adapter",
+    "name": "SPC 控制图核对",
+    "nameEn": "SPC Control Chart Check",
+    "author": "PerryLink",
+    "description": "按现行 GB/T 17989.2—2020 控制图常数表核对 SPC 控制图台账：控制限、中心线、Cp/Cpk 的算术与常数表自洽性，只列差异，不判过程是否受控。",
+    "descriptionEn": "SPC control-chart and Cpk check against the current GB/T 17989.2-2020 control-chart constants: checks a control-chart register for control limits, centre line and Cp/Cpk arithmetic and constant-table self-consistency, lists differences only and does not judge whether the process is in control.",
+    "repo": "https://github.com/PerryLink/dsh-spc-gbt-adapter",
+    "npm": "dsh-spc-gbt-adapter",
+    "category": "tools"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
