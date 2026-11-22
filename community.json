@@ -661,6 +661,18 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-guard-plan-qc",
+    "name": "劳保用品配置核对",
+    "nameEn": "PPE Allocation Check",
+    "author": "PerryLink",
+    "description": "面向安全管理与劳保管理的纯本地劳动防护用品配置表核对：核对每行是否填写品名、规格型号与配置数量，配置数量能否解析为大于零的数字并按配置人数与每人基数推算，发放日期是否落在配置期间内、有效截止是否晚于发放日期，以及配置表是否覆盖本机构要求的用品类别，输出「哪一行、哪一栏、差什么、怎么补」的清单——只列差异，不判定防护等级是否足够，原件只读。",
+    "descriptionEn": "Local-only PPE allocation-table check: verify that each row fills the product name, specification and configured quantity, that the quantity parses as a number above zero and reconciles with the stated headcount and the per-person factor, that the issue date falls inside the plan period and expiry is later than issue, and that the table covers the required product categories — a row-by-row, column-by-column list of what differs and how to fix it; differences only, no adequacy verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-guard-plan-qc",
+    "npm": "dsh-guard-plan-qc",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-gzip",
     "name": "dsh-gzip",
     "nameEn": "dsh-gzip",
