@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-railway-window",
+    "name": "铁路施工天窗台账核对",
+    "nameEn": "Railway Work Window Check",
+    "author": "PerryLink",
+    "description": "面向铁路施工调度与现场管理的纯本地施工天窗台账核对：读取当日表头与每条天窗一行，按随包的 7 条规则核对时间窗、时长算术与命令号是否自洽——计划起止与封锁起止是否可解析且先后成立、时长是否等于起止之差、命令号是否唯一、天窗是否跨越零点，输出「哪一行、哪一栏、差什么」的清单——不判定施工是否安全、是否应当批准；只提示差异，结论留给审核人，跑不起来的检查进 skipped 并写明原因，原件只读。",
+    "descriptionEn": "Local-only railway work-window register check for dispatchers and site managers: read the day's header plus one row per work window and apply the seven versioned rules to verify time windows, duration arithmetic and order numbers — planned and possession start/end parse and follow one another, duration equals the difference, order numbers are unique, midnight crossings are handled — returning a row-by-row, column-by-column difference list; it does not decide whether the work is safe or should be approved — differences only, the verdict stays with the reviewer, checks that cannot run land in `skipped` with a reason, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-railway-window",
+    "npm": "dsh-railway-window",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
