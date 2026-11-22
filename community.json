@@ -556,6 +556,17 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-eia-guide-check",
+    "name": "环评导则核对",
+    "nameEn": "EIA Guideline Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的数据型核查插件：读取一份环评导则适用性核对表（项目表头加每条评价要素一行），按随包的版本化规则包 EG-001..EG-007 核对要素、导则名称与执行标准的可追溯性；只列材料内部能指认的差异，不判合规、不认定责任。",
+    "descriptionEn": "EIA technical guideline applicability check for DeepSeek Harness: reads an EIA guideline applicability table (a project header plus one row per assessment element) and applies the bundled versioned rule pack EG-001..EG-007 to the traceability of elements, guideline names and execution standards. It lists only differences it can point to inside the material and never issues a compliance verdict.",
+    "repo": "https://github.com/PerryLink/dsh-eia-guide-check",
+    "npm": "dsh-eia-guide-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
