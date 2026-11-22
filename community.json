@@ -1039,6 +1039,18 @@
     "subcategory": "browser"
   },
   {
+    "id": "dsh-pleading-draft",
+    "name": "起诉状要素核对",
+    "nameEn": "Pleading Elements Check",
+    "author": "PerryLink",
+    "description": "面向诉讼代理与法务的纯本地起诉状要素核对：读入一份起诉状（或申请书）要素核对表，按随包的版本化规则包逐条核对每项诉请是否写明事实依据、是否指明证据、是否写明法律依据，写了金额的诉请是否写明金额与履行期限，文书是否写明原告与被告、要素序号是否唯一、是否残留占位符，输出「哪一行、哪一栏、差什么、怎么补」的清单——不判定诉请能否获得支持、是否已过诉讼时效、管辖是否正确或案件是否应当受理；只提示差异，结论留给复核人，原件只读。",
+    "descriptionEn": "Local-only pleading-element check for litigators and legal teams: read one pleading (or application) element checklist and apply the versioned rule pack row by row to verify that every claim records its factual basis, points at evidence and states its legal basis, that a monetary claim states an amount and a performance deadline, that the document names both parties, that element numbers are unique and that no placeholder survives — returning which row, which column, what differs and how to fix it; it does not decide whether a claim will succeed, whether it is time-barred, whether jurisdiction is right or whether the case should be accepted — differences only, the verdict stays with the reviewer, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-pleading-draft",
+    "npm": "dsh-pleading-draft",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-plugin-auto-update",
     "name": "插件自动更新",
     "nameEn": "Plugin Auto Update",
