@@ -828,6 +828,18 @@
     "subcategory": "notify"
   },
   {
+    "id": "dsh-manuscript-check",
+    "name": "投稿前检查",
+    "nameEn": "Manuscript Preflight",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的投稿前检查：核对稿件结构与声明段落，按关键词覆盖 CONSORT/STROBE/PRISMA 起步条目并给出定位与建议，再扫描投稿包（正文、投稿信、编号图件与缺号、表格、附件、声明）输出 JSON/Markdown 报告；只作清单提示，不作合规裁决。",
+    "descriptionEn": "Pre-submission checklist for DeepSeek Harness: checks manuscript structure and declaration statements, covers starter CONSORT/STROBE/PRISMA items by keyword with locators and advice, and scans the submission pack (manuscript, cover letter, numbered figures with gap detection, tables, supplements, declarations) into JSON/Markdown reports; a checklist, not a compliance verdict.",
+    "repo": "https://github.com/PerryLink/dsh-manuscript-check",
+    "npm": "dsh-manuscript-check",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-mcp-manager",
     "name": "MCP 管理器",
     "nameEn": "MCP Manager",
