@@ -732,6 +732,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-learning-gap-check",
+    "name": "学情差距分析核对",
+    "nameEn": "Competency Gap Check",
+    "author": "PerryLink",
+    "description": "面向人力资源与培训管理的纯本地能力差距与培养计划台账核对：依据能力管理与人员发展指南，核对每项差距是否写明岗位与能力项、现有等级是否可解析为数值、差距是否等于要求等级减现有等级、超过配置阈值的差距是否填写培养措施、措施是否写明责任人与完成期限、完成日期是否不晚于期限、状态是否取自本机构口径，输出「哪一行、哪一栏、差什么」的清单——不判定员工是否胜任，原件只读。",
+    "descriptionEn": "Local-only competency-gap and development-plan register check: following published guidance on competence management and people development, verify that each gap names its post and skill, that recorded levels parse as numbers, that the gap equals required minus actual, that a gap beyond the configured threshold carries a development action with owner and deadline, that completion is not later than the deadline and that status comes from the institution's vocabulary — a row-by-row, column-by-column difference list; no competence verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-learning-gap-check",
+    "npm": "dsh-learning-gap-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-library",
     "name": "本地文档知识库",
     "nameEn": "Local Document Library",
