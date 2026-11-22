@@ -568,6 +568,17 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-excel-reconcile",
+    "name": "表格对账",
+    "nameEn": "Spreadsheet Reconciliation",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的对账插件：按声明的主键连接两份 Excel/CSV 表，按声明字段与容差逐项比较，输出 Markdown 报告、JSON 结果与差异工作簿；金额用整数最小单位比较，主键重复时整键跳过而不是随手配对，只列差异不替人裁决。",
+    "descriptionEn": "Reconciliation plugin for DeepSeek Harness: join two Excel/CSV sheets on a declared key and compare declared fields within declared tolerances, producing a Markdown report, JSON result and diff workbook; amounts are compared in integer minor units, duplicated keys are skipped whole rather than paired arbitrarily, and it reports differences without adjudicating them.",
+    "repo": "https://github.com/PerryLink/dsh-excel-reconcile",
+    "npm": "dsh-excel-reconcile",
+    "category": "tools"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
