@@ -379,6 +379,17 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-claude-move",
+    "name": "迁移向导",
+    "nameEn": "Migration Wizard",
+    "author": "PerryLink",
+    "description": "四源迁移向导：把 Claude Code、Codex、OpenCode、Hermes 的会话、记忆、技能、指令与斜杠命令迁入 DSH，/move 向导带审批门、可续聊、幂等 move.json。",
+    "descriptionEn": "Four-source migration wizard: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH via a /move wizard with an approval gate, resumable sessions and an idempotent move.json.",
+    "repo": "https://github.com/PerryLink/dsh-claude-move",
+    "npm": "dsh-claude-move",
+    "category": "integration"
+  },
+  {
     "id": "dsh-clear-usage",
     "name": "DSH Token 用量统计",
     "nameEn": "DSH Token Usage",
