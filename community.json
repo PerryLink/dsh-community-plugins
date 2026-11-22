@@ -141,6 +141,17 @@
     "subcategory": "chat"
   },
   {
+    "id": "dsh-ap-three-way",
+    "name": "应付三单匹配",
+    "nameEn": "AP Three-Way Match",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地应付三单匹配插件：CSV/XML 导入发票、采购单与收货单，默认 1% 价格容差、可按 bps 调整容差策略并检测重复行，导出 Matches / Exceptions 底稿——4 个 `ap.*` 工具，全程不联网、不调用模型。",
+    "descriptionEn": "Accounts-payable three-way match for DeepSeek Harness: import invoices, purchase orders and goods receipts from CSV/XML, apply a 1% default price tolerance that is adjustable in bps, detect duplicate rows and export the Matches / Exceptions workpaper — 4 `ap.*` tools, entirely local, no network and no model call.",
+    "repo": "https://github.com/PerryLink/dsh-ap-three-way",
+    "npm": "dsh-ap-three-way",
+    "category": "tools"
+  },
+  {
     "id": "dsh-api-visualizer",
     "name": "接口捕获",
     "nameEn": "API Capture",
