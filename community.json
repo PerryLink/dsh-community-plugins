@@ -579,6 +579,18 @@
     "subcategory": "preset"
   },
   {
+    "id": "dsh-forecast-penalty",
+    "name": "预测偏差与考核台账核对",
+    "nameEn": "Forecast Accuracy Assessment Check",
+    "author": "PerryLink",
+    "description": "面向合同与考核结算的纯本地预测准确率考核台账核对：依据本机构配置的定义式与算式（币制写法参照《表示货币的代码》），核对考核期、考核对象与市场类型是否写明，预测值、实际值与准确率是否可解析为数值，台账所填准确率与考核费用是否与配置的公式相符，币制是否三位字母代码、考核期是否重复、备注栏是否残留占位符——只列差异，不判定考核办法适用性或费用是否应当收取，原件只读。",
+    "descriptionEn": "Local-only forecast-accuracy assessment-register check: against the institution's configured definition and charge formulas (currency codes following ISO 4217), verify that the period, subject and market are stated, that forecast, actual and accuracy values parse as numbers, that the stored accuracy and assessment charge agree with the configured formulas, that the currency is a three-letter code, that no period repeats and that no placeholder survives in the remark column — differences only; it does not judge whether the method applies or a charge should be made, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-forecast-penalty",
+    "npm": "dsh-forecast-penalty",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-free-search",
     "name": "免费搜索",
     "nameEn": "Free Search",
