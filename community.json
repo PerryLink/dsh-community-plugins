@@ -1005,6 +1005,18 @@
     "subcategory": "render"
   },
   {
+    "id": "dsh-param-repair",
+    "name": "参数映射与修复",
+    "nameEn": "Parameter Mapping & Repair",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的厂商参数映射与确定性 JSON 修复：在 11 家服务商之间映射 temperature/top_p/max_tokens/stop/system，并按可审计规则修复损坏的 JSON 工具输出。",
+    "descriptionEn": "Vendor parameter mapping and deterministic JSON repair for DeepSeek Harness: map temperature/top_p/max_tokens/stop/system across 11 vendors and repair broken JSON tool output with auditable rules.",
+    "repo": "https://github.com/PerryLink/dsh-param-repair",
+    "npm": "dsh-param-repair",
+    "category": "tools",
+    "subcategory": "model"
+  },
+  {
     "id": "dsh-passwords",
     "name": "远程访问网关",
     "nameEn": "Access Gateway",
