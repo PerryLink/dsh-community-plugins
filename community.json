@@ -568,6 +568,18 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-evidence-check",
+    "name": "证据清单核对",
+    "nameEn": "Evidence List Check",
+    "author": "PerryLink",
+    "description": "面向举证与案件的纯本地证据清单核对：把待证事实映射到证据，逐行核对清单的齐备、来源、日期与编号，标出空栏、重复证据编号与【待填】占位符，按规则 ID 输出「哪一行、哪一栏、差什么」的差异清单——只提示差异，不作出定性结论，原件只读。",
+    "descriptionEn": "Local-only evidence/exhibit-list check: map the facts to prove onto the evidence list, verify each row's completeness, sources, dates and exhibit numbers, mark empty cells, repeated exhibit numbers and placeholder text, and report a row-by-row, column-by-column difference list with rule IDs — differences only, no verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-evidence-check",
+    "npm": "dsh-evidence-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
