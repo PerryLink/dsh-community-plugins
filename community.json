@@ -1147,6 +1147,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-policy-brief-draft",
+    "name": "政策专报要素核对",
+    "nameEn": "Policy Brief Elements Check",
+    "author": "PerryLink",
+    "description": "面向政策研究人员与办公室写手的纯本地政策专报要素核对：读入一份专报要素核对表，套用逐条引文的版本化规则包（PB-001…PB-008），核对每节是否写明核心观点、观点是否有支撑依据、依据是否注明出处、数据截止日期是否可解析且不在未来、数据在配置窗口内是否足够新鲜、建议事项是否写明实施主体、专报是否写明标题与报送对象、要点序号是否唯一，输出「哪一行、哪一栏、差什么」的清单——不判定观点是否正确、依据是否充分、建议是否可行；只提示差异，结论留给审核人，原件只读。",
+    "descriptionEn": "Local-only policy-brief element check for policy researchers and drafting offices: read one brief element checklist and apply the versioned, verbatim-citing rule pack (PB-001..PB-008) to verify that each section states its point, that every point has supporting evidence citing a source, that the data cutoff parses and is not in the future, that figures are fresh enough under the configured window, that a recommendation names who implements it, that the brief names its title and recipient and that section numbers are unique — returning a row-by-row, column-by-column difference list; it does not decide whether a point is right, whether the evidence is sufficient or whether a recommendation is feasible — differences only, the verdict stays with the reviewer, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-policy-brief-draft",
+    "npm": "dsh-policy-brief-draft",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-postman",
     "name": "接口调试",
     "nameEn": "API Debugger",
