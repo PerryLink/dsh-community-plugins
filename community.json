@@ -969,6 +969,18 @@
     "subcategory": "render"
   },
   {
+    "id": "dsh-nurse-record-check",
+    "name": "护理记录核对",
+    "nameEn": "Nursing Record Check",
+    "author": "PerryLink",
+    "description": "面向护理质量管理的纯本地护理记录核对：依据《病历书写基本规范》等公开文件，核对护理记录的书写时限、签名，以及跌倒与压力性损伤等评估表的完整性，把一次住院的护理记录核对成逐条可复核的差异清单——每条都写明所引条款，列出缺失或次序不符之处供人复核。",
+    "descriptionEn": "Local-only nursing-record check for nursing quality management: following 《病历书写基本规范》 and other published documents, verify entry timing, signatures and the completeness of assessment forms such as fall-risk and pressure-ulcer forms, and turn one episode's records into a line-by-line list of reviewable differences — each naming the clause it comes from, with missing or out-of-sequence items flagged for human review.",
+    "repo": "https://github.com/PerryLink/dsh-nurse-record-check",
+    "npm": "dsh-nurse-record-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-observe",
     "name": "可观测导出",
     "nameEn": "Observability Export",
