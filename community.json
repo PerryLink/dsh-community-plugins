@@ -295,6 +295,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-bid-qual-check",
+    "name": "投标人资格条件核对表",
+    "nameEn": "Bidder Qualification Check",
+    "author": "PerryLink",
+    "description": "面向投标与招标代理的纯本地投标人资格条件核对：依据《中华人民共和国招标投标法》《中华人民共和国招标投标法实施条例》，逐条核对每条资格条件的要求内容、投标人实际情况、证明材料与结论口径是否闭环，否决项是否三者齐全，表头是否写明项目与投标人，序号是否唯一、要求栏是否残留模板占位符，输出带行号与栏位的差异及补正建议——不判合规、不认定资格、不核验原件，原件只读。",
+    "descriptionEn": "Local-only bidder-qualification checklist check: following the PRC Tendering and Bidding Law and its implementing regulations, verify that each condition closes the loop between requirement, the bidder's actual position, the evidence and the conclusion wording, that a disqualifying item records all three, that the header names project and bidder, that condition numbers are unique and that no template placeholder survives — row and column differences with fixes; no compliance or eligibility verdict, originals not verified, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-bid-qual-check",
+    "npm": "dsh-bid-qual-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-braingames",
     "name": "dsh-braingames",
     "nameEn": "dsh-braingames",
