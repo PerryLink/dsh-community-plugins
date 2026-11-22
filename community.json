@@ -1182,6 +1182,17 @@
     "subcategory": "model"
   },
   {
+    "id": "dsh-qms-capa",
+    "name": "质量事件与 CAPA",
+    "nameEn": "QMS NCR & CAPA",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的本地质量事件插件：读固定表头的 CSV 台账，对 NCR 不良记录去重入库、解析批次别名、评估库存与在途影响，再按 D1–D8 与 CAPA 状态开单推进；全程不联网、不调用模型。",
+    "descriptionEn": "Local quality-event plugin for DeepSeek Harness: read fixed-header CSV ledgers, deduplicate NCR records into the store, resolve batch aliases, assess inventory and in-transit impact, then open and track CAPA or 8D cases by D1-D8 and CAPA status; fully offline with no model calls.",
+    "repo": "https://github.com/PerryLink/dsh-qms-capa",
+    "npm": "dsh-qms-capa",
+    "category": "tools"
+  },
+  {
     "id": "dsh-quick-ask",
     "name": "侧边快速提问",
     "nameEn": "Side Quick Ask",
