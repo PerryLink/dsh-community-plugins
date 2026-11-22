@@ -533,6 +533,17 @@
     "subcategory": "reading"
   },
   {
+    "id": "dsh-defend",
+    "name": "注入防御",
+    "nameEn": "Injection Defense",
+    "author": "PerryLink",
+    "description": "在 agent/pre-step、tools/pre-execute、tools/post-execute 三个接缝检测提示词注入、越狱与密钥泄露，按 allow/ask/block 分层处置，附脱敏审计事件、defend_report 工具与危险删除命令门禁。",
+    "descriptionEn": "Detects prompt-injection, jailbreak and secret-leak patterns on the agent/pre-step, tools/pre-execute and tools/post-execute seams with allow/ask/block tiers, sanitized audit events, a defend_report tool and a destructive-delete command guard.",
+    "repo": "https://github.com/PerryLink/dsh-defend",
+    "npm": "dsh-defend",
+    "category": "security"
+  },
+  {
     "id": "dsh-delete-archived",
     "name": "删除已归档对话",
     "nameEn": "Delete Archived Conversations",
