@@ -295,6 +295,17 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-bid-health-check",
+    "name": "投标响应体检",
+    "nameEn": "Bid Response Health Check",
+    "author": "PerryLink",
+    "description": "面向投标专员与标书编制人的纯本地核对工具：读一份 RequirementsPack 与一份 .docx 投标文件，按词面重合逐条给出「看起来有响应 / 响应可疑 / 定位不到」三种状态；只报告差异，不判合规、不认定责任、不替代人工复核。",
+    "descriptionEn": "Checks a bid requirement by requirement against a tender requirements pack and reports which requirements appear answered, weakly matched or not located. It reports differences; it does not judge substantive compliance, never assigns liability and never replaces human review.",
+    "repo": "https://github.com/PerryLink/dsh-bid-health-check",
+    "npm": "dsh-bid-health-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-braingames",
     "name": "dsh-braingames",
     "nameEn": "dsh-braingames",
