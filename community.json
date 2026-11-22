@@ -223,6 +223,18 @@
     "subcategory": "model"
   },
   {
+    "id": "dsh-attendance-check",
+    "name": "考勤核对",
+    "nameEn": "Attendance Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地考勤核对：读打卡 CSV，按 8 小时标准工时、3 小时单日与 36 小时月加班上限逐日核对，输出每人日工时、加班、超限日、缺卡与休息不足，按月汇总并导出核对表——不联网、不调用模型、不上传。",
+    "descriptionEn": "Local-only attendance audit for DeepSeek Harness: read the punch-clock CSV and check every day against an 8-hour standard day, a 3-hour daily overtime cap and a 36-hour monthly overtime cap, reporting per-employee daily hours, overtime, over-limit days, missing punches and short breaks, with a monthly roll-up and reconciliation CSV — no network, no model call, no upload.",
+    "repo": "https://github.com/PerryLink/dsh-attendance-check",
+    "npm": "dsh-attendance-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-attention-health",
     "name": "上下文健康",
     "nameEn": "Attention Health",
