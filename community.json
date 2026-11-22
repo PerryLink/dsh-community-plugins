@@ -164,6 +164,17 @@
     "subcategory": "policy"
   },
   {
+    "id": "dsh-aqua-input-check",
+    "name": "水产投入品核对",
+    "nameEn": "Aquaculture Input Check",
+    "author": "PerryLink",
+    "description": "读取一份水产养殖投入品记录（养殖场表头加每条记录一行），按随包的版本化规则包 AQ-001..AQ-007 核对记录齐备与日期算术：每条记录是否写明塘口与养殖品种、写了名称的投入品是否记录投入量与使用日期、使用日期是否晚于核对日、起捕是否满足记录中写明的休药期、投苗记录是否写明苗种来源与检疫证号、投入品类型是否取自配置的取值口径、批次编号是否唯一；只列材料内部能逐条指认的差异，不判合规、不认定责任。",
+    "descriptionEn": "Reads an aquaculture input register (a farm header plus one row per record) and applies the bundled versioned rule pack AQ-001..AQ-007 to check completeness and date arithmetic: pond and species per record, quantity and use date for named inputs, use date not after the check date, harvest within the withdrawal period the register states, seed-stock source and quarantine certificate number on stocking records, input type from the configured vocabulary, and unique batch numbers. It lists only the differences it can point to inside the material - never a compliance verdict, never a liability finding.",
+    "repo": "https://github.com/PerryLink/dsh-aqua-input-check",
+    "npm": "dsh-aqua-input-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-archived-chats",
     "name": "归档管理",
     "nameEn": "Archive Management",
