@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-repro-audit",
+    "name": "复现审计",
+    "nameEn": "Repro Audit",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的复现审计：有界只读扫描记录 git 提交与脏状态、依赖锁、环境固定、输入数据哈希、图表、notebook、随机种子与可运行命令，推导缺口等级与 reproducible/partial/not_reproducible 结论，对比记录清单发现漂移，输出报告卡、Markdown 与 SARIF。",
+    "descriptionEn": "Reproducibility audit for DeepSeek Harness: a bounded read-only scan records the git commit and dirty state, dependency lockfiles, environment pins, input-data hashes, figures, notebooks, seeds and runnable commands, derives gap severities and a reproducible/partial/not_reproducible level, detects drift against the recorded manifest, and renders a report card with Markdown and SARIF.",
+    "repo": "https://github.com/PerryLink/dsh-repro-audit",
+    "npm": "dsh-repro-audit",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
