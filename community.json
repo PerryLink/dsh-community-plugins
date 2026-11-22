@@ -319,6 +319,17 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-budget",
+    "name": "用量预算",
+    "nameEn": "Usage Budget",
+    "author": "PerryLink",
+    "description": "在 llm/stream 瀑布上按插件统计用量并设费用上限：按模型记账、会话与月度预算的预警与阻断、延迟窗口，以及碳足迹估算。",
+    "descriptionEn": "Per-plugin usage accounting and cost caps on the llm/stream waterfall: per-model usage, session and monthly budgets with warn/block transitions, latency windows, and a carbon-footprint estimate.",
+    "repo": "https://github.com/PerryLink/dsh-budget",
+    "npm": "dsh-budget",
+    "category": "utility"
+  },
+  {
     "id": "dsh-builtin-toggles",
     "name": "内置能力检查器",
     "nameEn": "Built-in Capability Inspector",
