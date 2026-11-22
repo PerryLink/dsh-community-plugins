@@ -732,6 +732,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-legal-intake",
+    "name": "法务需求收件",
+    "nameEn": "Legal Request Intake",
+    "author": "PerryLink",
+    "description": "面向法务运营的纯本地法务需求收件：从 EML 读取客户或供应商的法务需求，解析邮件头并按 Message-ID 与线程去重，用关键词把需求归入 NDA / MSA / 合同审查 / 争议 / 合规 / 其他，写入本地台账并导出 Excel——不连邮箱、不联网、不调用模型，原始 EML 与附件清单只读，需求结论仍由法务人员作出。",
+    "descriptionEn": "Local-only legal-request intake: read legal requests from EML, parse the headers and deduplicate by Message-ID and thread, classify each request as NDA / MSA / contract review / dispute / compliance / other with keywords, record it in the local ledger and export an Excel sheet — no mailbox connection, no network, no model call, the original EML and attachment manifest stay read-only, and the legal conclusion remains with the reviewer.",
+    "repo": "https://github.com/PerryLink/dsh-legal-intake",
+    "npm": "dsh-legal-intake",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-library",
     "name": "本地文档知识库",
     "nameEn": "Local Document Library",
