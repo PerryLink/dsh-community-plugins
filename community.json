@@ -379,6 +379,17 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-claim-check",
+    "name": "论断支撑检查",
+    "nameEn": "Claim Support Check",
+    "author": "PerryLink",
+    "description": "确定性论断支撑检查：逐字引文跨度、数字匹配、标签值矛盾、否定与对冲极性对照被引句子，输出 REP v1 证据/论断/裁决记录与 SARIF；改写转述会被报为 insufficient，绝不报为 supported。",
+    "descriptionEn": "Deterministic claim support checking for DeepSeek Harness: verbatim quote spans, number matching, labelled-value contradiction, negation and hedging polarity against the cited sentence, REP v1 evidence/claim/verdict records and SARIF output; a paraphrase is reported as insufficient, never as supported.",
+    "repo": "https://github.com/PerryLink/dsh-claim-check",
+    "npm": "@perrylink/dsh-claim-check",
+    "category": "knowledge"
+  },
+  {
     "id": "dsh-clear-usage",
     "name": "DSH Token 用量统计",
     "nameEn": "DSH Token Usage",
