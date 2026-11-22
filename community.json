@@ -1336,6 +1336,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-store-replenish",
+    "name": "门店补货计算",
+    "nameEn": "Store Replenishment",
+    "author": "PerryLink",
+    "description": "面向门店零售的补货计算：按「日均销量 ×（补货周期 + 安全天数）− 当前库存 − 在途」算出每个 SKU 的目标缺口并向上取整到起订量，输出按 SKU 的补货建议、按门店汇总的补货单与补货 CSV，顺带标出滞销与缺货风险——纯本地、零运行时依赖、不联网、不下采购单。",
+    "descriptionEn": "Replenishment maths for retail stores: compute each SKU's target gap as daily average × (cycle days + safety days) − stock − in-transit, round it up to the MOQ, and output per-SKU suggestions, per-store replenishment orders and a replenishment CSV while flagging slow-moving SKUs and stockout risk — local only, zero runtime dependencies, no network, no purchase order.",
+    "repo": "https://github.com/PerryLink/dsh-store-replenish",
+    "npm": "dsh-store-replenish",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
