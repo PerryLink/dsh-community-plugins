@@ -556,6 +556,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-emergency-plan",
+    "name": "应急预案核对",
+    "nameEn": "Emergency Plan Element Check",
+    "author": "PerryLink",
+    "description": "面向安全生产的纯本地应急预案要素核对：依据《生产经营单位生产安全事故应急预案编制导则》《生产安全事故应急预案管理办法》（GB/T 29639-2020、国家安全生产监督管理总局令第88号），按综合应急预案、专项应急预案与现场处置方案三类要素清单分别核对齐备性，标题存在而标题下无正文的按缺失报出，每条差异定位到页或行——只列字面差异，不判合规、不作安全定性，原件只读。",
+    "descriptionEn": "Local-only emergency-plan element check: following GB/T 29639-2020 and 国家安全生产监督管理总局令第88号, verify element completeness against the three checklists for comprehensive plans, special plans and on-site response plans, report a heading with no body beneath it as missing, and locate every difference by page or line — literal differences only, no compliance or safety verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-emergency-plan",
+    "npm": "dsh-emergency-plan",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
