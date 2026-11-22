@@ -486,6 +486,17 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-contract-stance",
+    "name": "合同条款立场核对",
+    "nameEn": "Contract Clause Stance Check",
+    "author": "PerryLink",
+    "description": "面向法务与合同管理员的主机端核对插件：读取一份「合同表头 + 每条款一行」的立场台账，按逐字引用的规则库列出「哪一行、哪一栏、差什么」，不改原件、不判定合规。",
+    "descriptionEn": "Host-side check for DeepSeek Harness aimed at legal teams and contract administrators: read a contract-stance ledger (contract header plus one row per clause), apply a rule library of verbatim citations, and list which row, which column and what is missing; the original file is never modified and compliance is not judged.",
+    "repo": "https://github.com/PerryLink/dsh-contract-stance",
+    "npm": "dsh-contract-stance",
+    "category": "tools"
+  },
+  {
     "id": "dsh-cost-voice",
     "name": "大白饭到账语音播报",
     "nameEn": "Dabaifan Turn-Cost Voice",
