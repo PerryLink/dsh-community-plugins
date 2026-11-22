@@ -661,6 +661,18 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-gongwen-flow-check",
+    "name": "公文流转记录核对",
+    "nameEn": "Official Document Flow Check",
+    "author": "PerryLink",
+    "description": "面向办公室与文秘的纯本地收文登记与办理环节核对：依据《党政机关公文处理工作条例》（中办发〔2012〕14号），核对每个办理环节是否填写承办人、收文与办结日期是否可解析且先后成立、办结是否落在台账自己写入的办理期限内、状态是否取自配置的取值清单、文号是否只登记一次、表头是否同时声明标题与收文日期，输出「哪一行、哪一栏、差什么」的清单——只提示差异，不判定是否超期或应由谁负责，原件只读。",
+    "descriptionEn": "Local-only receipt-and-handling register check: following 中办发〔2012〕14号, verify that each handling step records a handler, that receipt and completion dates parse and follow each other, that completion falls inside the deadline the register itself records, that statuses come from the configured vocabulary, that each document number is registered once and that the header declares both title and receipt date — a row-by-row, column-by-column difference list; differences only, no overdue or responsibility verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-gongwen-flow-check",
+    "npm": "dsh-gongwen-flow-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-gzip",
     "name": "dsh-gzip",
     "nameEn": "dsh-gzip",
