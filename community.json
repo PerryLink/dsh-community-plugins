@@ -696,6 +696,18 @@
     "subcategory": "model"
   },
   {
+    "id": "dsh-import-customs-check",
+    "name": "进口单证核对",
+    "nameEn": "Import Customs Doc Check",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地进口单证核对：读一份整理好的 JSON，把发票、装箱单、提单、报关单四份单证的 9 个表头字段逐字段对照，并列出报关单 12 项表头要素缺项，可导出 CSV——不联网、不调用模型、不上传。",
+    "descriptionEn": "Local-only import-document check for DeepSeek Harness: read one prepared JSON, cross-check the 9 header fields across the invoice, packing list, bill of lading and customs declaration, list missing items among the declaration's 12 header elements, and export CSV — no network, no model call, no upload.",
+    "repo": "https://github.com/PerryLink/dsh-import-customs-check",
+    "npm": "dsh-import-customs-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-industry-research",
     "name": "行业研究",
     "nameEn": "Industry Research",
