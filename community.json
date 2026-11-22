@@ -1194,6 +1194,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-rfq-compare",
+    "name": "询价比价",
+    "nameEn": "RFQ Compare",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的询价比价：把多家供应商对同一批物料的报价压进一张表，标出谁最低、价差与交期，以及低于成本线、超预算或已过期的报价，金额全程整数分、异常只标记不淘汰，导出可复核 CSV——不联网、不上传报价。",
+    "descriptionEn": "RFQ comparison for DeepSeek Harness: consolidate several suppliers' quotes for the same materials into one table showing who is cheapest, the price spread and lead times, plus quotes below the cost line, over budget or already expired; amounts stay in integer cents, anomalies are flagged rather than disqualified, and a reviewable CSV is exported — no network, no quote upload.",
+    "repo": "https://github.com/PerryLink/dsh-rfq-compare",
+    "npm": "dsh-rfq-compare",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-runninghub-plugin",
     "name": "RunningHub 工作流",
     "nameEn": "RunningHub Workflows",
