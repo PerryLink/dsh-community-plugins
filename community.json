@@ -1230,6 +1230,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-security-pack",
+    "name": "插件安全技能包与门禁",
+    "nameEn": "Plugin Security Pack & Gate",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的插件供应链安全技能包与安装前门禁：八个中英双语审计技能讲解方法论，plugin_vet 工具执行许可证、SBOM、commit 锁定、恶意模式与数据责任检查，并给出五维加权风险卡（PASS / WARN / FAIL）与 warn|deny 策略。",
+    "descriptionEn": "Plugin supply-chain security skill pack and pre-install gate for DeepSeek Harness: eight bilingual agent skills teach the audit methodology, and the plugin_vet tool runs the license, SBOM, commit-pinning, malicious-pattern and data-responsibility checks, producing a five-dimension weighted risk card (PASS / WARN / FAIL) and a warn|deny policy.",
+    "repo": "https://github.com/PerryLink/dsh-security-pack",
+    "npm": "dsh-security-pack",
+    "category": "security",
+    "subcategory": "policy"
+  },
+  {
     "id": "dsh-session-enhance",
     "name": "会话增强（dsh-session-enhance）",
     "nameEn": "Session Enhance",
