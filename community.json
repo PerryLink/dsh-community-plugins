@@ -1005,6 +1005,18 @@
     "subcategory": "render"
   },
   {
+    "id": "dsh-paper-doc-adapter",
+    "name": "试卷结构核对",
+    "nameEn": "Exam Paper Structure Check",
+    "author": "PerryLink",
+    "description": "面向教研与命题管理的纯本地试卷解析结果核对：核对每道题是否填写题号与题干、是否填写答案或解析、各题分值合计是否等于表头试卷总分、题型是否取自配置口径、难度系数是否落在配置范围内、题目标识是否齐备且唯一、是否标注知识点、题干栏是否残留占位符，输出「哪一行、哪一栏、差什么」的清单——只列材料内部能逐条指认的差异，不改原件，不作出定性结论。",
+    "descriptionEn": "Local-only parsed exam-paper check: verify that each question records its number and stem, that an answer or explanation is present, that item scores total the paper score the header states, that question types come from the configured vocabulary, that the difficulty coefficient falls inside the configured range, that question identifiers are present and unique, that a knowledge point is recorded and that no placeholder survives in the stem — a row-by-row, column-by-column difference list; differences pointable inside the material only, the original is not modified, and no verdict is given.",
+    "repo": "https://github.com/PerryLink/dsh-paper-doc-adapter",
+    "npm": "dsh-paper-doc-adapter",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-passwords",
     "name": "远程访问网关",
     "nameEn": "Access Gateway",
