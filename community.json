@@ -1336,6 +1336,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-soilwater-check",
+    "name": "土壤与地下水监测台账核对",
+    "nameEn": "Soil and Groundwater Register Check",
+    "author": "PerryLink",
+    "description": "面向环保调查与监测机构的纯本地土壤与地下水监测台账核对：依据《建设用地土壤污染状况调查技术导则》《地下水环境监测技术规范》与随包的版本化规则包（SW-001…SW-008），读取一份监测台账（项目表头加每个点位与监测项目一行），逐条核对点位信息、监测项目、限值与超标判定、检出限与单位是否齐备且算术自洽，输出「哪一行、哪一栏、差什么」的清单——不判定是否污染、是否应当管控；只提示差异，不作出定性结论，原件只读。",
+    "descriptionEn": "Local-only soil and groundwater monitoring register check for environmental investigation and monitoring teams: following the technical guidelines for soil contamination investigation and groundwater monitoring plus the versioned rule pack it ships (SW-001..SW-008), read one monitoring register (project header plus one row per point and parameter) and verify that point data, parameters, limits and exceedance calls, detection limits and units are complete and arithmetically consistent — returning a row-by-row, column-by-column difference list; it does not decide whether contamination exists or whether controls are required — differences only, no verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-soilwater-check",
+    "npm": "dsh-soilwater-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-streamfold",
     "name": "流式折叠",
     "nameEn": "Stream Fold",
