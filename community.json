@@ -732,6 +732,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-labor-contract",
+    "name": "劳动合同体检",
+    "nameEn": "Labor Contract Check",
+    "author": "PerryLink",
+    "description": "面向 HR 与法务的纯本地劳动合同体检：核对九项必备条款覆盖、试用期上限、试用期工资 80% 下限、批量到期与竞业限制提示，导出一份带 sha256 的问题清单 CSV——不联网、不调用模型、不构成法律意见。",
+    "descriptionEn": "Local-only labor-contract review for HR and legal ops: check nine required clauses, the probation cap, the 80% probation-pay floor, batch expiry and non-compete compensation hints, and export a sha256-stamped issue-list CSV — no network, no model call, not legal advice.",
+    "repo": "https://github.com/PerryLink/dsh-labor-contract",
+    "npm": "dsh-labor-contract",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-library",
     "name": "本地文档知识库",
     "nameEn": "Local Document Library",
