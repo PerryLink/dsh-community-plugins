@@ -568,6 +568,18 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-famling",
+    "name": "Famling 像素桌宠",
+    "nameEn": "Famling Pixel Pet",
+    "author": "PerryLink",
+    "description": "Famling 像素桌宠的 DeepSeek Harness 客户端版：侧栏左下角显示汀岚 / 布偶猫 / 金毛动画，右键或 Shift+F10 打开分级菜单，角色即主题的内容中心与统一设置（安静时段、减少动态、暂时隐藏）；默认零常驻按钮，偏好只存本机，不联网、不执行脚本。",
+    "descriptionEn": "The DeepSeek Harness client edition of the Famling pixel pet: Tinglan / Ragdoll cat / Golden Retriever animations in the sidebar footer, a right-click or Shift+F10 hierarchical menu, a role-as-theme content center and unified settings (quiet hours, reduce motion, temporary hide); zero persistent buttons, local-only preferences, no network and no script execution.",
+    "repo": "https://github.com/PerryLink/dsh-famling",
+    "npm": "dsh-famling",
+    "category": "ui",
+    "subcategory": "render"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
