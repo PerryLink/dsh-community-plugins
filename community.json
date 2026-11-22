@@ -1206,6 +1206,18 @@
     "subcategory": "external-ai"
   },
   {
+    "id": "dsh-safety-brief-check",
+    "name": "安全技术交底记录核对",
+    "nameEn": "Safety Briefing Record Check",
+    "author": "PerryLink",
+    "description": "面向建筑施工安全管理的纯本地安全技术交底记录核对：依据《建筑施工安全技术统一规范》《建设工程安全生产管理条例》（GB 50870-2013、JGJ 59-2011）与随包的版本化规则包（SB-001…SB-007），读取一份交底记录（表头、被交底人与签字两份名单、工种列表），逐条核对要素是否齐备、签字是否闭环、被交底人与签字名单是否对应、工种是否在列、日期是否可解析，输出「哪一条、哪一栏、差什么、怎么补」的清单——不判定交底内容是否充分或签字是否本人所签；只提示差异，结论留给审核人，原件只读。",
+    "descriptionEn": "Local-only safety technical briefing check for construction safety managers: following GB 50870-2013, JGJ 59-2011 and the versioned rule pack it ships (SB-001..SB-007), read one briefing record (header, recipient and signer lists, trade list) and verify that required elements are present, signatures close the loop, the recipient and signer lists correspond, trades are listed and dates parse — returning which rule, which column, what differs and how to fix it; it does not judge whether the briefing content was adequate or whether a signature is genuine — differences only, the verdict stays with the reviewer, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-safety-brief-check",
+    "npm": "dsh-safety-brief-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-score",
     "name": "插件评分",
     "nameEn": "Plugin Scoring",
