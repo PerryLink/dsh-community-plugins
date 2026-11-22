@@ -556,6 +556,17 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-draw",
+    "name": "图像生成",
+    "nameEn": "Image Generation",
+    "author": "PerryLink",
+    "description": "多引擎文生图：内置 OpenAI Images 与智谱 CogView 预设，按会话配额、引擎故障切换、凭证安全配置，结果卡片支持重新生成。",
+    "descriptionEn": "Multi-engine text-to-image generation with OpenAI Images and Zhipu CogView presets, per-session quota tracking, engine failover, credential-safe config and a result card with regenerate.",
+    "repo": "https://github.com/PerryLink/dsh-draw",
+    "npm": "dsh-draw",
+    "category": "tools"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
