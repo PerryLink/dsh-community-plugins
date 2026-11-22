@@ -295,6 +295,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-bid-ca-precheck",
+    "name": "投标符合性响应台账核对",
+    "nameEn": "Bid Compliance Response Check",
+    "author": "PerryLink",
+    "description": "面向投标与招标代理的纯本地投标符合性响应台账核对：依据《中华人民共和国招标投标法》《中华人民共和国招标投标法实施条例》，逐条核对每条招标要求是否记录响应、响应结论是否取自已配置的取值清单、条款号是否唯一、台账是否声明项目与投标人、高风险条款是否附证明材料、要求栏是否残留模板占位符，输出可定位的差异清单——不判定投标是否有效或是否构成实质性偏离，结论留给评标委员会，原件只读。",
+    "descriptionEn": "Local-only bid compliance-response register check: following the PRC Tendering and Bidding Law and its implementing regulations, verify that every requirement records a response, that conclusions come from the configured vocabulary, that clause numbers are unique, that the register declares project and bidder, that high-risk clauses carry evidence and that no template placeholder survives in the requirement column — a located difference list; it does not judge bid validity or material deviation, the verdict stays with the evaluation committee, and the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-bid-ca-precheck",
+    "npm": "dsh-bid-ca-precheck",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-braingames",
     "name": "dsh-braingames",
     "nameEn": "dsh-braingames",
