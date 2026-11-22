@@ -1372,6 +1372,18 @@
     "subcategory": "context"
   },
   {
+    "id": "dsh-tender-matrix",
+    "name": "评标矩阵核对",
+    "nameEn": "Bid Scoring Matrix Check",
+    "author": "PerryLink",
+    "description": "面向招标采购的纯本地评标评分矩阵核对：核对评标因素的分值上限、所记分值与合计之间的内部算术自洽性，在评审会前把矩阵里的算术错误逐行指出来——只列差异，不评价评标本身是否正确或公平，不替评标委员会下结论。",
+    "descriptionEn": "Local-only bid-evaluation scoring-matrix check for tendering: verify that each factor's maximum, the scores recorded and the totals agree with each other, and point out the arithmetic errors row by row before the review meeting — differences only; it does not judge whether the evaluation was correct or fair and never stands in for the committee's verdict.",
+    "repo": "https://github.com/PerryLink/dsh-tender-matrix",
+    "npm": "dsh-tender-matrix",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-test-drive",
     "name": "隔离试驾",
     "nameEn": "Isolated Test Drive",
