@@ -732,6 +732,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-legal-clause",
+    "name": "条款树与要项映射",
+    "nameEn": "Clause Tree & Playbook Mapping",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的合同条款处理：按行首编号把合同文本拆成条款树，用标题与正文关键词把每条映射到风险/控制/商务/履约四类共 12 个键，报告缺口与编号问题，并导出未决清单——5 个 legal.* 工具，全程本地、不联网、不调用模型。",
+    "descriptionEn": "Contract clause work for DeepSeek Harness: split contract text into a clause tree by leading numbering, map each clause to 12 keys across risk/control/commercial/performance using heading and body keywords, report gaps and numbering problems, and export the unresolved report — 5 legal.* tools, fully local with no network calls and no model calls.",
+    "repo": "https://github.com/PerryLink/dsh-legal-clause",
+    "npm": "dsh-legal-clause",
+    "category": "knowledge",
+    "subcategory": "qa"
+  },
+  {
     "id": "dsh-library",
     "name": "本地文档知识库",
     "nameEn": "Local Document Library",
