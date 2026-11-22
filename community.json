@@ -556,6 +556,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-doublecheck",
+    "name": "交付门禁",
+    "nameEn": "Delivery Gate",
+    "author": "PerryLink",
+    "description": "交付质量门禁：动笔前审讯需求，先写失败测试再转绿，用同一份可重放的会话日志做对抗评审与逐维度核对，最后由四阶段门禁给出可交付/返工裁决。",
+    "descriptionEn": "Delivery quality gate for DeepSeek Harness: grill the requirements, write failing tests before green, review against the same replayable session log, and let a four-stage gate decide deliverable vs rework.",
+    "repo": "https://github.com/PerryLink/dsh-doublecheck",
+    "npm": "dsh-doublecheck",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
