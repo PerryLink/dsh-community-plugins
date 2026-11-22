@@ -684,6 +684,18 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-ifc-qto",
+    "name": "IFC 工程量提取",
+    "nameEn": "IFC Quantity Take-off",
+    "author": "PerryLink",
+    "description": "面向 BIM 工程师与造价员的纯本地 IFC 工程量提取：读 ISO-10303-21（IFC STEP）文本，清点墙/板/门窗等构件与 IfcQuantity 工程量，按计量类型汇总长度、面积、体积并导出 CSV，标出非正数等异常——原文件不动，全程不联网、不调用模型、不上传。",
+    "descriptionEn": "Local-only IFC quantity take-off for BIM engineers and cost estimators: read ISO-10303-21 (IFC STEP) text, inventory elements such as walls, slabs, doors and windows with their IfcQuantity values, aggregate length, area and volume by quantity type and export CSV, flagging non-positive values — the source file is left untouched; no network, no model call, no upload.",
+    "repo": "https://github.com/PerryLink/dsh-ifc-qto",
+    "npm": "dsh-ifc-qto",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-imagegen",
     "name": "AI 生图",
     "nameEn": "AI ImageGen",
