@@ -708,6 +708,18 @@
     "subcategory": "qa"
   },
   {
+    "id": "dsh-invoice-ledger",
+    "name": "发票台账核对",
+    "nameEn": "Invoice Ledger Check",
+    "author": "PerryLink",
+    "description": "面向财务与报销审核的发票台账核对：逐行识别重复报销、价税勾稽不符、抬头不一致、日期异常与模板占位符，输出可定位到行的异常清单与规范化工作簿。",
+    "descriptionEn": "Invoice ledger check for DeepSeek Harness: per-row detection of duplicate reimbursements, tax/amount arithmetic mismatches, payer mismatches, date anomalies and template placeholders, with a row-locatable anomaly list and a normalised workbook.",
+    "repo": "https://github.com/PerryLink/dsh-invoice-ledger",
+    "npm": "dsh-invoice-ledger",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-jump",
     "name": "跳跃导航",
     "nameEn": "dsh-jump",
