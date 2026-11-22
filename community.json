@@ -568,6 +568,17 @@
     "subcategory": "memory"
   },
   {
+    "id": "dsh-essay-rubric-check",
+    "name": "作文评分表核对",
+    "nameEn": "Essay Rubric Check",
+    "author": "PerryLink",
+    "description": "读取一份作文评分表（学生表头加每个评分项一行），核对每个评分项是否填写名称或等级描述、得分是否不超过该项分值、各项得分合计是否等于量表总分、给出得分的项是否留下原文定位、序号是否唯一、表头是否声明学生与量表版本；只列材料里能逐条指认的差异，不判断作文好坏或分数是否恰当，输出 Markdown 报告与 reportJson，未执行的检查逐条列入 skipped。",
+    "descriptionEn": "Reads an essay scoring rubric (a student header plus one row per criterion) and checks that each criterion has a name or level description, that no score exceeds the criterion maximum, that criterion scores add up to the rubric total, that scored criteria carry a source locator, that criterion numbers are unique and that the header names the student and rubric version. Reports only discrepancies it can point to in the material, without judging essay quality or score correctness, and outputs a Markdown report plus reportJson with checks it could not run listed under skipped.",
+    "repo": "https://github.com/PerryLink/dsh-essay-rubric-check",
+    "npm": "dsh-essay-rubric-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-flash-presets",
     "name": "DSH Flash 精简预设",
     "nameEn": "DSH Flash Lean Presets",
