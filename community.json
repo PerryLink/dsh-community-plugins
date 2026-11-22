@@ -1170,6 +1170,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-power-ticket-check",
+    "name": "电力工作票核对",
+    "nameEn": "Power Work Ticket Check",
+    "author": "PerryLink",
+    "description": "面向电力运维的纯本地工作票核对：依据现行电力安全工作规程，核对工作票应载明的要素、五项安全技术措施，以及签发、许可与终结的先后顺序，输出「哪一栏、差什么、怎么补」的清单——只报告发现的差异，不判定作业是否安全、许可是否有效，结论留给审核人。",
+    "descriptionEn": "Local-only electrical work-ticket check for power operations: following current electrical safety regulations, verify the required ticket elements, the five safety measures, and the issue → permit → finish sequence, and report which column is short, what is missing and how to fix it — differences only; it does not judge whether the work was safe or the permit validly authorised, the verdict stays with the reviewer.",
+    "repo": "https://github.com/PerryLink/dsh-power-ticket-check",
+    "npm": "dsh-power-ticket-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-provider-usage",
     "name": "用量统计悬浮框",
     "nameEn": "Provider Usage",
