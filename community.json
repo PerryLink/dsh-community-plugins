@@ -164,6 +164,18 @@
     "subcategory": "policy"
   },
   {
+    "id": "dsh-archive-check",
+    "name": "归档登记表核对",
+    "nameEn": "Filing Register Check",
+    "author": "PerryLink",
+    "description": "面向档案与文秘的纯本地归档登记表核对：依据《归档文件整理规则》《机关文件材料归档范围和文书档案保管期限规定》（DA/T 22—2015、国务院令第772号），逐行核对著录栏目是否填写、档号在同一登记范围内是否唯一、件号是否连续、保管期限是否使用本机构期限表用词、形成日期是否可解析并与登记年度一致，并报出超过移交期限的条目，输出「哪一行、哪一栏、差什么」的清单——只提示差异，不作出定性结论，原件只读。",
+    "descriptionEn": "Local-only filing-register check: following DA/T 22—2015 and 国务院令第772号, verify row by row that the configured description fields are filled, archive numbers are unique within the register, item numbers run without gaps, retention terms come from the institution's own schedule and creation dates parse and match the register year, and surface items past the transfer deadline — a row-by-row, column-by-column difference list; differences only, no verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-archive-check",
+    "npm": "dsh-archive-check",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-archived-chats",
     "name": "归档管理",
     "nameEn": "Archive Management",
