@@ -851,6 +851,18 @@
     "subcategory": "dev"
   },
   {
+    "id": "dsh-medrec-qc",
+    "name": "病案首页质控",
+    "nameEn": "Medical Record QC",
+    "author": "PerryLink",
+    "description": "面向病案质控的纯本地病案首页核对：依据国卫办医发〔2016〕24号等公开文件，核对首页各字段的齐备性与字段间的逻辑矛盾（如病案号为空），输出「哪一行、哪一栏、差什么、依据哪条」的清单——只列出缺失或不一致之处供人复核，不评价临床正确性。",
+    "descriptionEn": "Local-only front-sheet (medical record) QC: following 国卫办医发〔2016〕24号 and other published documents, check field completeness and internal logical contradictions between the fields (e.g. a blank record number), and report a line-by-line list of which row, which column, what differs and which clause says so — missing or inconsistent items for human review only; it does not assess clinical correctness.",
+    "repo": "https://github.com/PerryLink/dsh-medrec-qc",
+    "npm": "dsh-medrec-qc",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-memoir",
     "name": "项目记忆 Memoir",
     "nameEn": "Project Memory Memoir",
