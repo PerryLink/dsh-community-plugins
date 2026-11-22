@@ -1158,6 +1158,18 @@
     "subcategory": "api"
   },
   {
+    "id": "dsh-power-loss-split",
+    "name": "线损电量拆分核对",
+    "nameEn": "Line Loss Split Check",
+    "author": "PerryLink",
+    "description": "面向供电所与线损管理岗的纯本地线损电量拆分核对：读取供电量、售电量、线损电量、线损率与计量点清单，按公开的线损计算口径（DL/T 686-2018、GB/T 8170-2008）做算术与区间核对——每条命中都带算式与容差，核对供电量与售电量之差是否等于线损电量、线损率是否按口径计算、数值修约是否符合规则，跑不起来的检查进 skipped 并写明原因，输出「哪一行、差多少、该改什么」的清单——只提示差异，不作出定性结论，原件只读。",
+    "descriptionEn": "Local-only line-loss split check for utility stations and line-loss teams: read supplied energy, sold energy, declared line-loss energy and rate plus the metering-point list and run arithmetic and interval checks under the public calculation basis (DL/T 686-2018, GB/T 8170-2008) — every finding carries its formula and tolerance, verifying that supplied minus sold equals line-loss energy, that the rate follows the basis and that rounding conforms; checks that cannot run land in `skipped` with a reason — returning which row does not close, by how much, and what to fix; differences only, no verdict, the original is read-only.",
+    "repo": "https://github.com/PerryLink/dsh-power-loss-split",
+    "npm": "dsh-power-loss-split",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-power-menu-mac",
     "name": "电源菜单（macOS）",
     "nameEn": "Power Menu (macOS)",
