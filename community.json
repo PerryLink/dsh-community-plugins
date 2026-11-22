@@ -474,6 +474,17 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-construction-doc-check",
+    "name": "施工资料核对",
+    "nameEn": "Construction Document Check",
+    "author": "PerryLink",
+    "description": "扫描一个施工项目的资料归档目录，按相对路径与文件名核对规则库列出的 12 类规定资料是否存在，并按规则号、类别、依据条款给出缺件清单；同时报告同一资料出现多份（可能残留旧版本）与零字节文件两类集合级问题。只看目录结构与文件名、不打开文件内容，输出 Markdown 清单与结构化 resultJson。",
+    "descriptionEn": "Scans a construction project's document archive directory and checks, by relative path and file name, whether each of the 12 required document kinds listed in the rule library is present, listing missing documents with rule id, category and cited clause. It also reports two set-level problems: multiple copies of the same document (possible revision leftovers) and zero-byte files. It reads directory structure and file names only, never file contents, and outputs a Markdown list plus a structured resultJson.",
+    "repo": "https://github.com/PerryLink/dsh-construction-doc-check",
+    "npm": "dsh-construction-doc-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-context",
     "name": "上下文可视化",
     "nameEn": "Context Visualizer",
