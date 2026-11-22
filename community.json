@@ -556,6 +556,17 @@
     "subcategory": "cleanup"
   },
   {
+    "id": "dsh-einvoice",
+    "name": "电子发票收件箱",
+    "nameEn": "E-Invoice Inbox",
+    "author": "PerryLink",
+    "description": "中文电子发票（OFD/XML）收件箱：导入、解析、去重、进入复核队列、登记回执并本地归档——10 个 `invoice.*` 工具，数据不出本机。",
+    "descriptionEn": "Chinese e-invoice (OFD/XML) inbox for DeepSeek Harness: ingest, parse, deduplicate, queue for review, record receipts and archive locally — 10 `invoice.*` tools, nothing uploaded and no tax-bureau or model call.",
+    "repo": "https://github.com/PerryLink/dsh-einvoice",
+    "npm": "dsh-einvoice",
+    "category": "tools"
+  },
+  {
     "id": "dsh-engramory",
     "name": "Engramory 长期记忆",
     "nameEn": "Engramory Long-Term Memory",
