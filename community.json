@@ -969,6 +969,17 @@
     "subcategory": "render"
   },
   {
+    "id": "dsh-nsfc-form-check",
+    "name": "国自然形式审查",
+    "nameEn": "NSFC Form Check",
+    "author": "PerryLink",
+    "description": "面向科研管理人员的 DeepSeek Harness 检查插件：读取国自然申请书的正文行与电子文档属性，按本机构名单和版本化规则库核对形式要件、篇幅与匿名化，报出「哪条、哪行、差什么」，每条发现都标出所依据的条款与依据类型。",
+    "descriptionEn": "Check for research administrators in DeepSeek Harness: read the body lines and electronic document properties of an NSFC grant application, and check format requirements, length and anonymization against the host institution's name list and a versioned rule library; each finding names the item, line and difference, with the clause and basis type it relies on.",
+    "repo": "https://github.com/PerryLink/dsh-nsfc-form-check",
+    "npm": "dsh-nsfc-form-check",
+    "category": "tools"
+  },
+  {
     "id": "dsh-observe",
     "name": "可观测导出",
     "nameEn": "Observability Export",
