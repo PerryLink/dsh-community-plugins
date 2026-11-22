@@ -1170,6 +1170,18 @@
     "subcategory": "panel"
   },
   {
+    "id": "dsh-progress-payment",
+    "name": "进度款审核",
+    "nameEn": "Progress Payment Audit",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的纯本地进度款审核：读申报 CSV 与可选合同基准 CSV，逐项核对量与单价，用整数分算出本期金额、累计金额与累计比例，列出超量 / 单价 / 重复项并导出审核底稿 CSV——不联网、不调用模型、不上传。",
+    "descriptionEn": "Local-only progress-payment audit for DeepSeek Harness: read a declaration CSV plus an optional contract-baseline CSV, check quantity and unit price line by line, compute the period amount, cumulative amount and cumulative ratio in integer cents, list over-quantity / price / duplicate issues, and export a review worksheet CSV — no network, no model call, no upload.",
+    "repo": "https://github.com/PerryLink/dsh-progress-payment",
+    "npm": "dsh-progress-payment",
+    "category": "tools",
+    "subcategory": "dev"
+  },
+  {
     "id": "dsh-provider-usage",
     "name": "用量统计悬浮框",
     "nameEn": "Provider Usage",
