@@ -283,6 +283,17 @@
     "subcategory": "policy"
   },
   {
+    "id": "dsh-bankrec",
+    "name": "银行对账",
+    "nameEn": "Bank Reconciliation",
+    "author": "PerryLink",
+    "description": "面向 DeepSeek Harness 的银行对账插件：CSV、CAMT.053/054/056、MT940 入库，与总账按金额与日期逐笔 1:1 勾对并做 CAMT 余额核对，导出 Bank / GL / Matches 三张表的 xlsx 底稿——6 个 `bankrec.*` 工具，全程本地、不联网。",
+    "descriptionEn": "Bank statement reconciliation for DeepSeek Harness: ingest CSV, CAMT.053/054/056 and MT940, match statements against ledger entries one-to-one by amount and date, check CAMT balances and export the Bank / GL / Matches workpaper as xlsx — 6 `bankrec.*` tools, entirely local, no network.",
+    "repo": "https://github.com/PerryLink/dsh-bankrec",
+    "npm": "dsh-bankrec",
+    "category": "tools"
+  },
+  {
     "id": "dsh-better-classifier",
     "name": "BetterClassifier 会话分类",
     "nameEn": "BetterClassifier",
