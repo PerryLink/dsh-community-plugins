@@ -31,7 +31,10 @@ const NPM_RE = /^(@[a-z0-9][a-z0-9._-]*\/)?[a-z0-9][a-z0-9._-]*$/
 /** Required entry fields. */
 const REQUIRED = ['id', 'name', 'nameEn', 'author', 'repo']
 /** Optional entry fields. */
-const OPTIONAL = ['description', 'descriptionEn', 'npm', 'category', 'subcategory']
+const OPTIONAL = ['description', 'descriptionEn', 'npm', 'version', 'category', 'subcategory']
+/** An exact SemVer version, the only shape the official plugin market index can
+ * install from: it is applied verbatim as `<npm>@<version>`. */
+const SEMVER_RE = /^(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$/u
 /** Stable category ids rendered as filter pills on the market surfaces. */
 const CATEGORIES = ['ui', 'agent', 'tools', 'knowledge', 'integration', 'security', 'utility']
 /** Second-level classification: the legal subcategory ids per category, also
@@ -94,6 +97,14 @@ function validateEntries(raw) {
     }
     if (entry.npm !== undefined && (typeof entry.npm !== 'string' || !NPM_RE.test(entry.npm))) {
       throw new Error('community.json: entry ' + entry.id + ' npm must be a valid package name')
+    }
+    if (entry.version !== undefined) {
+      if (entry.npm === undefined) {
+        throw new Error('community.json: entry ' + entry.id + ' version requires npm')
+      }
+      if (typeof entry.version !== 'string' || !SEMVER_RE.test(entry.version)) {
+        throw new Error('community.json: entry ' + entry.id + ' version must be an exact SemVer string')
+      }
     }
     for (const key of OPTIONAL) {
       if (entry[key] !== undefined && typeof entry[key] !== 'string') {

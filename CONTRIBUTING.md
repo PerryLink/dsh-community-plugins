@@ -13,11 +13,11 @@ the family bundle.
    touch different parts of the file and merge without a conflict — a tail
    append would collide with every other open registration.
 2. Fill the required fields: `id`, `name`, `nameEn`, `author`, `repo`.
-   `description`, `descriptionEn`, `category`, `subcategory` and `npm` are
-   optional to the validator, but the descriptions are store copy shown to every
-   user and are reviewed as published copy, and `subcategory` is accepted only
-   together with a `category`. Omit `npm` when the plugin is not published to
-   the registry — the store then installs from `repo`.
+   `description`, `descriptionEn`, `category`, `subcategory`, `npm` and
+   `version` are optional to the validator, but the descriptions are store copy
+   shown to every user and are reviewed as published copy, and `subcategory` is
+   accepted only together with a `category`. Omit `npm` when the plugin is not
+   published to the registry — the store then installs from `repo`.
 3. Run the gate and the tests before pushing:
 
    ```sh
@@ -30,6 +30,14 @@ The gate rejects malformed registrations: `repo` must be an `https://` URL
 without whitespace or shell metacharacters (the market turns it into a shell
 command) and `npm` must be a valid npm package name. `pnpm test` covers the
 same validation through the module API.
+
+`version` is the published npm version and requires `npm`; it must be an exact
+SemVer (`1.2.3`, never a range or a tag). The official DSH plugin market index
+(`manifest/plugin-market-index.json`, subscribed from Plugins -> Discover) feeds
+`<npm>@<version>` straight into `pnpm add`, so an entry without an exact
+`version` cannot be installed from Discover and is left out of that index. Keep
+the value equal to the release named in `repo` — the store card shows it as the
+installable version.
 
 Keep the diff to the one entry. The file is UTF-8 with LF line endings, one
 object per entry, in ascending `id` order: a pull request that rewrites the line

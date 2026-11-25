@@ -19,7 +19,7 @@ DeepSeek Harness (DSH) Web GUI 与官方桌面客户端社区插件索引数据�
 
 ## 功能
 
-- 索引数据：`community.json` 由维护者审核合并（流程见 [docs/plugins.md](../../docs/plugins.md) 的「社区插件索引登记」），每条包含 `id` / `name` / `nameEn` / `author` / `repo`（必填）与 `description` / `descriptionEn` / `npm` / `category` / `subcategory`（可选；`subcategory` 为 `category` 下的二级分类，枚举见 `scripts/community-index`，仅当 `category` 已填时有效）。
+- 索引数据：`community.json` 由维护者审核合并（流程见 [docs/plugins.md](../../docs/plugins.md) 的「社区插件索引登记」），每条包含 `id` / `name` / `nameEn` / `author` / `repo`（必填）与 `description` / `descriptionEn` / `npm` / `version` / `category` / `subcategory`（可选；`subcategory` 为 `category` 下的二级分类，枚举见 `scripts/community-index`，仅当 `category` 已填时有效）。`version` 是已发布的 npm 版本，需与 `npm` 同时出现；官方 DSH 插件市场索引（Plugins -> Discover）按 `<npm>@<version>` 安装，因此只有带精确 SemVer 的条目才会出现在该索引中。
 - 消费方：`scripts/market-build` 从本文件派生出创意工坊商店与 dsh-market.com 的插件清单。
 - 校验：`node scripts/community-index` 对索引执行契约校验（CI 门禁 `pnpm community:check` 同款）。
 - 无设置面：本包不再提供任何设置界面（社区插件卡已被创意工坊商店的插件目录取代）；保留 inert cordis 行只是为了让既有 profile 与聚合包继续解析该行，安装后无任何 UI。
